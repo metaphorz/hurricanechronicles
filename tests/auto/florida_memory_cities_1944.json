@@ -1,0 +1,113 @@
+{
+  "tampa": {
+    "keyword": "hurricane+Tampa+1944",
+    "items": []
+  },
+  "orlando": {
+    "keyword": "hurricane+Orlando+1944",
+    "items": []
+  },
+  "jacksonville": {
+    "keyword": "hurricane+Jacksonville+1944",
+    "items": []
+  },
+  "fort-myers": {
+    "keyword": "hurricane+Fort+Myers+1944",
+    "items": [
+      {
+        "url": "https://www.floridamemory.com/items/show/258158",
+        "page": 1,
+        "title": "Florida Memory \u2022 Etta Silverfriend, left, and Cora Stephens next to the cottage of Carl Luettich following a hurricane at Ft. Myers Beach on Estero Island.",
+        "thumb": "https://floridamemory.com/fpc/KOR/KOR2269.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1921",
+        "subject": "Houses--Florida--Lee County--Fort Myers Beach"
+      },
+      {
+        "url": "https://www.floridamemory.com/items/show/258122",
+        "page": 1,
+        "title": "Florida Memory \u2022 Koreshans cleaning up mausoleum wreckage at Ft. Myers Beach on Estero Island following a hurricane.",
+        "thumb": "https://floridamemory.com/fpc/KOR/KOR2273.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1921",
+        "subject": "Natural disasters--Florida--Lee County--Fort Myers Beach"
+      },
+      {
+        "url": "https://www.floridamemory.com/items/show/257272",
+        "page": 1,
+        "title": "Florida Memory \u2022 Group portrait of Koreshans by the mausoleum wreckage at Ft. Myers Beach on Estero Island following a hurricane.",
+        "thumb": "https://floridamemory.com/fpc/KOR/KOR1327.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1921",
+        "subject": "Tombs--Hurricane effects"
+      },
+      {
+        "url": "https://www.floridamemory.com/items/show/3189",
+        "page": 1,
+        "title": "Florida Memory \u2022 Ruth Brame in front of the Gulf Shores Inn..",
+        "thumb": "https://floridamemory.com/fpc/prints/pr03354.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1944",
+        "subject": "Women--Florida--Lee County--Fort Myers"
+      },
+      {
+        "url": "https://www.floridamemory.com/items/show/256835",
+        "page": 1,
+        "title": "Florida Memory \u2022 Koreshans gathered around tomb of Dr. Cyrus Reed Teed at Ft. Myers Beach on Estero Island, Florida.",
+        "thumb": "https://floridamemory.com/fpc/KOR/KOR1103.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1909 (circa)",
+        "subject": "Tombs"
+      }
+    ]
+  },
+  "sarasota": {
+    "keyword": "hurricane+Sarasota+1944",
+    "items": []
+  },
+  "naples": {
+    "keyword": "hurricane+Naples+1944",
+    "items": [
+      {
+        "url": "https://www.floridamemory.com/items/show/125559",
+        "page": 1,
+        "title": "Florida Memory \u2022 Remains of the Naples beach pier after the hurricane.",
+        "thumb": "https://floridamemory.com/fpc/geology/ge1694.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1944",
+        "subject": "Hurricanes--Florida--Collier County--Naples"
+      },
+      {
+        "url": "https://www.floridamemory.com/items/show/125563",
+        "page": 1,
+        "title": "Florida Memory \u2022 Mangrove peat exposed after the hurricane.",
+        "thumb": "https://floridamemory.com/fpc/geology/ge1698.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1944",
+        "subject": "Geology--Florida--Collier County"
+      }
+    ]
+  },
+  "key-west": {
+    "keyword": "hurricane+Key+West+1944",
+    "items": [
+      {
+        "url": "https://www.floridamemory.com/items/show/259273",
+        "page": 1,
+        "title": "Florida Memory \u2022 Two views showing hurricane damage to the Overseas Railway.",
+        "thumb": "https://floridamemory.com/fpc/postcard/PC07441.gif",
+        "description": "Searchable collections of manuscripts, war records, historic images, vital statistics, audio and video recordings from the State Library and Archives of Florida.",
+        "date": "1935 (circa)",
+        "subject": "Real photo postcards"
+      }
+    ]
+  },
+  "daytona": {
+    "keyword": "hurricane+Daytona+1944",
+    "items": []
+  },
+  "miami": {
+    "keyword": "hurricane+Miami+1944",
+    "items": []
+  }
+}

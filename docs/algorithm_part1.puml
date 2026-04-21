@@ -1,0 +1,56 @@
+@startuml algorithm_part1
+title Hurricane Chronicles — Algorithm Part 1: Track → Federal → State
+
+skinparam activityBackgroundColor #f5f6fa
+skinparam activityBorderColor #495057
+skinparam activityDiamondBackgroundColor #fff9db
+skinparam activityDiamondBorderColor #e67700
+skinparam partitionBackgroundColor #eef3ff
+skinparam arrowColor #495057
+skinparam shadowing false
+skinparam defaultFontName Helvetica
+
+start
+
+partition "1. Track & Candidate Cities" {
+  :Load storm track (HURDAT2 or approximate);
+  :Identify landfall, major track cities, exit points;
+  :Emit candidate archive circles
+  (id, city, region, lat, lng);
+}
+
+partition "2. Federal Tier — LOC Chronicling America" {
+  :Keyword sweep per city:
+  hurricane, storm, tropical, gale, damage, flood, destroyed;
+  :Add Spanish terms for bilingual papers:
+  huracán, ciclón, tormenta;
+  :GET loc.gov JSON search
+  (fa=location:florida, dates=YYYY-MM, fo=json);
+  :Fetch page fulltext
+  via resource.fulltext_file (JSON envelope);
+  :Dedupe by result id;
+}
+
+partition "3. State Tier — UFDC + Florida Memory" {
+  fork
+    :UFDC / FDNL;
+    :GET fdnl_titles_list (size=10000);
+    :GET all_vids_in_bibid (size=50000)
+    → filter vids to date window client-side;
+    :GET pagetext per vid
+    → grep bilingual keyword set;
+  fork again
+    :Florida Memory (State Archives);
+    :Non-headless Selenium + warmup
+    (Cloudflare challenge);
+    :GET /find?keywords=YYYY+hurricane
+    paginate all pages;
+    :Group by Dublin Core Subject;
+  end fork
+}
+
+:Candidate items pooled
+for verification (Part 2);
+stop
+
+@enduml

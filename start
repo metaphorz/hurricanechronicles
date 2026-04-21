@@ -1,0 +1,50 @@
+#!/bin/zsh
+# Start script for HurricaneChronicles visualization
+# Manages HTTP server on port 8000
+
+PORT=8000
+URL="http://localhost:${PORT}/index.html"
+
+echo "🚀 Starting HurricaneChronicles..."
+echo ""
+
+# Check if port is already in use
+if lsof -i :${PORT} > /dev/null 2>&1; then
+    echo "⚠️  Port ${PORT} is already in use"
+    echo "   Stopping existing process..."
+
+    # Kill the process using the port
+    lsof -ti :${PORT} | xargs kill -9 2>/dev/null
+
+    # Wait a moment for the port to be released
+    sleep 1
+
+    echo "   ✓ Existing process stopped"
+fi
+
+# Start HTTP server
+echo "▶️  Starting HTTP server on port ${PORT}..."
+cd "$(dirname "$0")"
+python3 -m http.server ${PORT} > /tmp/hurricanechronicles.log 2>&1 &
+SERVER_PID=$!
+
+# Wait a moment for server to start
+sleep 2
+
+# Check if server started successfully
+if lsof -i :${PORT} > /dev/null 2>&1; then
+    echo "   ✓ Server started successfully (PID: ${SERVER_PID})"
+    echo ""
+    echo "📊 Application running at: ${URL}"
+    echo ""
+    echo "Opening browser..."
+    open "${URL}"
+    echo ""
+    echo "✅ Application is ready!"
+    echo ""
+    echo "To stop the server, run: ./stop"
+else
+    echo "   ✗ Failed to start server"
+    echo "   Check log: /tmp/hurricanechronicles.log"
+    exit 1
+fi

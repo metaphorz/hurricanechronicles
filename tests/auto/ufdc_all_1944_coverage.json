@@ -1,0 +1,233 @@
+{
+  "AA00010090": {
+    "title": "The Jewish Floridian",
+    "city": "",
+    "county": "Dade",
+    "total_vids": 3128,
+    "vids_in_1944": 52,
+    "oct44_window": [
+      {
+        "vid": "00817",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "00818",
+        "date": "1944-10-20",
+        "pagecount": null
+      }
+    ]
+  },
+  "AA00028981": {
+    "title": "The Dade City banner",
+    "city": "",
+    "county": "Pasco",
+    "total_vids": 2886,
+    "vids_in_1944": 45,
+    "oct44_window": [
+      {
+        "vid": "01664",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "01665",
+        "date": "1944-10-20",
+        "pagecount": null
+      }
+    ]
+  },
+  "AA00083643": {
+    "title": "The Southern Jewish weekly",
+    "city": "",
+    "county": "Duval",
+    "total_vids": 761,
+    "vids_in_1944": 13,
+    "oct44_window": []
+  },
+  "UF00028291": {
+    "title": "The Florida alligator",
+    "city": "",
+    "county": "Alachua",
+    "total_vids": 3727,
+    "vids_in_1944": 31,
+    "oct44_window": [
+      {
+        "vid": "01359",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "01360",
+        "date": "1944-10-20",
+        "pagecount": null
+      }
+    ]
+  },
+  "UF00028296": {
+    "title": "La gaceta",
+    "city": "",
+    "county": "Hillsborough",
+    "total_vids": 12166,
+    "vids_in_1944": 309,
+    "oct44_window": [
+      {
+        "vid": "10099",
+        "date": "1944-10-12",
+        "pagecount": null
+      },
+      {
+        "vid": "10100",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "10101",
+        "date": "1944-10-14",
+        "pagecount": null
+      },
+      {
+        "vid": "10102",
+        "date": "1944-10-16",
+        "pagecount": null
+      },
+      {
+        "vid": "10103",
+        "date": "1944-10-17",
+        "pagecount": null
+      },
+      {
+        "vid": "10104",
+        "date": "1944-10-18",
+        "pagecount": null
+      },
+      {
+        "vid": "10105",
+        "date": "1944-10-19",
+        "pagecount": null
+      },
+      {
+        "vid": "10106",
+        "date": "1944-10-20",
+        "pagecount": null
+      },
+      {
+        "vid": "10107",
+        "date": "1944-10-21",
+        "pagecount": null
+      },
+      {
+        "vid": "10108",
+        "date": "1944-10-23",
+        "pagecount": null
+      },
+      {
+        "vid": "10109",
+        "date": "1944-10-24",
+        "pagecount": null
+      },
+      {
+        "vid": "10110",
+        "date": "1944-10-25",
+        "pagecount": null
+      },
+      {
+        "vid": "10111",
+        "date": "1944-10-26",
+        "pagecount": null
+      }
+    ]
+  },
+  "UF00028309": {
+    "title": "Levy County journal",
+    "city": "",
+    "county": "Levy",
+    "total_vids": 3994,
+    "vids_in_1944": 49,
+    "oct44_window": [
+      {
+        "vid": "01634",
+        "date": "1944-10-12",
+        "pagecount": null
+      },
+      {
+        "vid": "01635",
+        "date": "1944-10-19",
+        "pagecount": null
+      },
+      {
+        "vid": "01636",
+        "date": "1944-10-26",
+        "pagecount": null
+      }
+    ]
+  },
+  "UF00028315": {
+    "title": "Citrus County chronicle",
+    "city": "",
+    "county": "Citrus",
+    "total_vids": 9128,
+    "vids_in_1944": 3,
+    "oct44_window": []
+  },
+  "UF00028320": {
+    "title": "The Monticello news",
+    "city": "",
+    "county": "Jefferson",
+    "total_vids": 2262,
+    "vids_in_1944": 52,
+    "oct44_window": [
+      {
+        "vid": "01770",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "01771",
+        "date": "1944-10-20",
+        "pagecount": null
+      }
+    ]
+  },
+  "UF00028405": {
+    "title": "The Madison enterprise-recorder",
+    "city": "",
+    "county": "Madison",
+    "total_vids": 4799,
+    "vids_in_1944": 52,
+    "oct44_window": [
+      {
+        "vid": "02511",
+        "date": "1944-10-13",
+        "pagecount": null
+      },
+      {
+        "vid": "02512",
+        "date": "1944-10-20",
+        "pagecount": null
+      }
+    ]
+  },
+  "UF00028415": {
+    "title": "The Clewiston news",
+    "city": "",
+    "county": "Hendry",
+    "total_vids": 1734,
+    "vids_in_1944": 1,
+    "oct44_window": []
+  },
+  "UF00048644": {
+    "title": "Daytona Beach evening news",
+    "city": "",
+    "county": "Volusia",
+    "total_vids": 1,
+    "vids_in_1944": 1,
+    "oct44_window": [
+      {
+        "vid": "00001",
+        "date": "1944-10-19",
+        "pagecount": null
+      }
+    ]
+  }
+}

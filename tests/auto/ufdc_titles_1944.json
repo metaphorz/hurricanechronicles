@@ -1,0 +1,78 @@
+{
+  "key-west": [
+    {
+      "bibid": "UF00048666",
+      "vid": "04485",
+      "title": "Key West Citizen",
+      "city": "",
+      "county": "Monroe",
+      "date_start": 1879,
+      "date_end": 1954
+    }
+  ],
+  "dry-tortugas": [
+    {
+      "bibid": "UF00048666",
+      "vid": "04485",
+      "title": "Key West Citizen",
+      "city": "",
+      "county": "Monroe",
+      "date_start": 1879,
+      "date_end": 1954
+    }
+  ],
+  "sarasota": [],
+  "fort-myers-beach": [],
+  "tampa": [
+    {
+      "bibid": "UF00028296",
+      "vid": "00256",
+      "title": "La gaceta",
+      "city": "",
+      "county": "Hillsborough",
+      "date_start": 1922,
+      "date_end": 2021
+    }
+  ],
+  "orlando": [
+    {
+      "bibid": "UF00079944",
+      "vid": "03055",
+      "title": "Orlando morning sentinel",
+      "city": "",
+      "county": "Orange",
+      "date_start": 1918,
+      "date_end": 1947
+    },
+    {
+      "bibid": "UF00079916",
+      "vid": "00710",
+      "title": "The Florida Catholic",
+      "city": "",
+      "county": "Orange",
+      "date_start": 1939,
+      "date_end": 2021
+    }
+  ],
+  "jacksonville": [
+    {
+      "bibid": "UF00028305",
+      "vid": "00501",
+      "title": "The Jacksonville free press",
+      "city": "",
+      "county": "Duval",
+      "date_start": 1916,
+      "date_end": 2019
+    },
+    {
+      "bibid": "AA00083643",
+      "vid": "00002",
+      "title": "The Southern Jewish weekly",
+      "city": "",
+      "county": "Duval",
+      "date_start": 1939,
+      "date_end": 1956
+    }
+  ],
+  "fernandina-beach": []
+}

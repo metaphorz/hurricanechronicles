@@ -1,0 +1,37 @@
+#!/bin/zsh
+# Stop script for HurricaneChronicles visualization
+# Kills HTTP server on port 8000
+
+PORT=8000
+
+echo "🛑 Stopping HurricaneChronicles..."
+echo ""
+
+# Check if anything is running on the port
+if lsof -i :${PORT} > /dev/null 2>&1; then
+    echo "   Found process on port ${PORT}"
+
+    # Get the PID
+    PID=$(lsof -ti :${PORT})
+    echo "   Stopping process (PID: ${PID})..."
+
+    # Kill the process
+    kill -9 ${PID} 2>/dev/null
+
+    # Wait a moment
+    sleep 1
+
+    # Verify it's stopped
+    if lsof -i :${PORT} > /dev/null 2>&1; then
+        echo "   ✗ Failed to stop process"
+        exit 1
+    else
+        echo "   ✓ Server stopped successfully"
+        echo ""
+        echo "✅ Port ${PORT} is now free"
+    fi
+else
+    echo "   ℹ️  No process found on port ${PORT}"
+    echo ""
+    echo "✅ Nothing to stop"
+fi

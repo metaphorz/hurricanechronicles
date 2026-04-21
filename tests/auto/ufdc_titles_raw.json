@@ -1,0 +1,56 @@
+[
+  {
+    "bibid": "UF00027953",
+    "vid": "00002",
+    "title": "A different drummer",
+    "coordinates": [
+      "28.369444,-80.743889"
+    ],
+    "county": "Brevard",
+    "vids_per_bibid": 5,
+    "min_date": null,
+    "max_date": null
+  },
+  {
+    "bibid": "AA00069139",
+    "vid": "00005",
+    "title": "Adjutant General's report",
+    "coordinates": [
+      "29.887668,-81.3098136"
+    ],
+    "county": null,
+    "vids_per_bibid": 8,
+    "min_date": "2012-01-01",
+    "max_date": "2021-01-01"
+  },
+  {
+    "bibid": "AA00056922",
+    "vid": "00001",
+    "title": "After action report",
+    "coordinates": null,
+    "county": null,
+    "vids_per_bibid": 20,
+    "min_date": "2010-01-01",
+    "max_date": "2017-01-01"
+  },
+  {
+    "bibid": "AA00052584",
+    "vid": "00002",
+    "title": "Air Commando Association Newsletter",
+    "coordinates": null,
+    "county": null,
+    "vids_per_bibid": 28,
+    "min_date": "2004-03-01",
+    "max_date": "2015-01-01"
+  },
+  {
+    "bibid": "AA00052580",
+    "vid": "00001",
+    "title": "Air commando journal",
+    "coordinates": null,
+    "county": null,
+    "vids_per_bibid": 32,
+    "min_date": "2011-01-01",
+    "max_date": "2021-10-01"
+  }
+]

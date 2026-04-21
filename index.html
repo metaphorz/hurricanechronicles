@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HurricaneChronicles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="topbar">
+    <h1>HurricaneChronicles</h1>
+    <label class="storm-picker">
+      Storm:
+      <select id="storm-select"></select>
+    </label>
+    <span id="storm-meta"></span>
+    <span class="spacer"></span>
+    <span class="legend">
+      <span class="legend-swatch track"></span> track
+      <span class="legend-swatch archive"></span> archive (click)
+      <span class="legend-swatch landfall"></span> landfall
+    </span>
+  </header>
+  <div id="map"></div>
+  <aside id="panel" hidden>
+    <header>
+      <h2 id="panel-title"></h2>
+      <button id="panel-close" aria-label="Close">×</button>
+    </header>
+    <div id="panel-subtitle"></div>
+    <div id="panel-body"></div>
+  </aside>
+  <div id="summary" hidden>
+    <h3 id="summary-title"></h3>
+    <p id="summary-text"></p>
+    <p class="source"><span id="summary-source"></span></p>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

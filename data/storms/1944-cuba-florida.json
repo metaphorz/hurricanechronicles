@@ -1,0 +1,1789 @@
+{
+  "id": "1944-cuba-florida",
+  "name": "1944 Cuba–Florida Hurricane",
+  "year": 1944,
+  "hurdat_id": "AL131944",
+  "summary": "Major hurricane of October 1944. Peak intensity 125 kt (Cat 4) over western Cuba with minimum pressure 937 mb. Crossed the Dry Tortugas as Cat 3 on Oct 18, then made mainland Florida landfall near Sarasota on Oct 19 as a strong Cat 2 (90 kt, 962 mb). Exited the NE Florida coast as a tropical storm before becoming extratropical over the Carolinas.",
+  "date_range": "1944-10-12 to 1944-10-24",
+  "source_track": "NOAA HURDAT2 (Atlantic best-track)",
+  "track": [
+    {
+      "date": "19441012",
+      "time_utc": "1200",
+      "status": "TD",
+      "lat": 16.0,
+      "lng": -80.5,
+      "wind_kt": 30,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441012",
+      "time_utc": "1800",
+      "status": "TS",
+      "lat": 16.4,
+      "lng": -80.6,
+      "wind_kt": 35,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441013",
+      "time_utc": "0000",
+      "status": "TS",
+      "lat": 16.8,
+      "lng": -80.7,
+      "wind_kt": 40,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441013",
+      "time_utc": "0600",
+      "status": "TS",
+      "lat": 17.1,
+      "lng": -80.8,
+      "wind_kt": 50,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441013",
+      "time_utc": "1200",
+      "status": "TS",
+      "lat": 17.4,
+      "lng": -80.9,
+      "wind_kt": 60,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441013",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 17.6,
+      "lng": -80.9,
+      "wind_kt": 70,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441014",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 17.8,
+      "lng": -80.8,
+      "wind_kt": 80,
+      "pressure_mb": 976,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441014",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 17.9,
+      "lng": -80.7,
+      "wind_kt": 80,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441014",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 18.0,
+      "lng": -80.6,
+      "wind_kt": 80,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441014",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 18.1,
+      "lng": -80.6,
+      "wind_kt": 80,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441015",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 18.2,
+      "lng": -80.5,
+      "wind_kt": 80,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441015",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 18.3,
+      "lng": -80.5,
+      "wind_kt": 80,
+      "pressure_mb": null,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441015",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 18.5,
+      "lng": -80.8,
+      "wind_kt": 85,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441015",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 18.7,
+      "lng": -81.3,
+      "wind_kt": 85,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441016",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 19.0,
+      "lng": -81.7,
+      "wind_kt": 90,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441016",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 19.2,
+      "lng": -82.1,
+      "wind_kt": 90,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441016",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 19.4,
+      "lng": -82.4,
+      "wind_kt": 90,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441016",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 19.5,
+      "lng": -82.7,
+      "wind_kt": 90,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441017",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 19.6,
+      "lng": -82.9,
+      "wind_kt": 90,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441017",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 19.7,
+      "lng": -82.9,
+      "wind_kt": 95,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441017",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 20.0,
+      "lng": -82.9,
+      "wind_kt": 95,
+      "pressure_mb": null,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441017",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 20.6,
+      "lng": -82.9,
+      "wind_kt": 105,
+      "pressure_mb": null,
+      "saffir_simpson": 3,
+      "landfall": false
+    },
+    {
+      "date": "19441018",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 21.4,
+      "lng": -82.9,
+      "wind_kt": 115,
+      "pressure_mb": null,
+      "saffir_simpson": 4,
+      "landfall": false
+    },
+    {
+      "date": "19441018",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 22.2,
+      "lng": -82.9,
+      "wind_kt": 125,
+      "pressure_mb": null,
+      "saffir_simpson": 4,
+      "landfall": false
+    },
+    {
+      "date": "19441018",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 23.1,
+      "lng": -83.0,
+      "wind_kt": 115,
+      "pressure_mb": 937,
+      "saffir_simpson": 4,
+      "landfall": false
+    },
+    {
+      "date": "19441018",
+      "time_utc": "1800",
+      "status": "HU",
+      "lat": 24.0,
+      "lng": -82.9,
+      "wind_kt": 105,
+      "pressure_mb": 949,
+      "saffir_simpson": 3,
+      "landfall": false
+    },
+    {
+      "date": "19441018",
+      "time_utc": "2100",
+      "status": "HU",
+      "lat": 24.6,
+      "lng": -82.9,
+      "wind_kt": 105,
+      "pressure_mb": 949,
+      "saffir_simpson": 3,
+      "landfall": true
+    },
+    {
+      "date": "19441019",
+      "time_utc": "0000",
+      "status": "HU",
+      "lat": 25.3,
+      "lng": -82.7,
+      "wind_kt": 100,
+      "pressure_mb": null,
+      "saffir_simpson": 3,
+      "landfall": false
+    },
+    {
+      "date": "19441019",
+      "time_utc": "0600",
+      "status": "HU",
+      "lat": 26.9,
+      "lng": -82.6,
+      "wind_kt": 90,
+      "pressure_mb": 962,
+      "saffir_simpson": 2,
+      "landfall": false
+    },
+    {
+      "date": "19441019",
+      "time_utc": "0700",
+      "status": "HU",
+      "lat": 27.2,
+      "lng": -82.5,
+      "wind_kt": 90,
+      "pressure_mb": 962,
+      "saffir_simpson": 2,
+      "landfall": true
+    },
+    {
+      "date": "19441019",
+      "time_utc": "1200",
+      "status": "HU",
+      "lat": 28.4,
+      "lng": -82.1,
+      "wind_kt": 75,
+      "pressure_mb": 968,
+      "saffir_simpson": 1,
+      "landfall": false
+    },
+    {
+      "date": "19441019",
+      "time_utc": "1800",
+      "status": "TS",
+      "lat": 29.8,
+      "lng": -81.7,
+      "wind_kt": 60,
+      "pressure_mb": 976,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441020",
+      "time_utc": "0000",
+      "status": "TS",
+      "lat": 31.2,
+      "lng": -81.4,
+      "wind_kt": 55,
+      "pressure_mb": 980,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441020",
+      "time_utc": "0600",
+      "status": "TS",
+      "lat": 32.4,
+      "lng": -81.0,
+      "wind_kt": 50,
+      "pressure_mb": 985,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441020",
+      "time_utc": "1200",
+      "status": "EX",
+      "lat": 33.7,
+      "lng": -80.5,
+      "wind_kt": 50,
+      "pressure_mb": 988,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441020",
+      "time_utc": "1800",
+      "status": "EX",
+      "lat": 35.4,
+      "lng": -79.0,
+      "wind_kt": 45,
+      "pressure_mb": 993,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441021",
+      "time_utc": "0000",
+      "status": "EX",
+      "lat": 37.1,
+      "lng": -76.9,
+      "wind_kt": 40,
+      "pressure_mb": 996,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441021",
+      "time_utc": "0600",
+      "status": "EX",
+      "lat": 38.3,
+      "lng": -75.0,
+      "wind_kt": 40,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441021",
+      "time_utc": "1200",
+      "status": "EX",
+      "lat": 39.4,
+      "lng": -73.3,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441021",
+      "time_utc": "1800",
+      "status": "EX",
+      "lat": 40.7,
+      "lng": -70.8,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441022",
+      "time_utc": "0000",
+      "status": "EX",
+      "lat": 42.7,
+      "lng": -67.4,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441022",
+      "time_utc": "0600",
+      "status": "EX",
+      "lat": 44.9,
+      "lng": -63.5,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441022",
+      "time_utc": "1200",
+      "status": "EX",
+      "lat": 47.5,
+      "lng": -59.5,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441022",
+      "time_utc": "1800",
+      "status": "EX",
+      "lat": 50.5,
+      "lng": -56.5,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441023",
+      "time_utc": "0000",
+      "status": "EX",
+      "lat": 54.0,
+      "lng": -54.0,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441023",
+      "time_utc": "0600",
+      "status": "EX",
+      "lat": 57.0,
+      "lng": -52.0,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441023",
+      "time_utc": "1200",
+      "status": "EX",
+      "lat": 59.5,
+      "lng": -50.0,
+      "wind_kt": 50,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441023",
+      "time_utc": "1800",
+      "status": "EX",
+      "lat": 61.5,
+      "lng": -47.0,
+      "wind_kt": 50,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441024",
+      "time_utc": "0000",
+      "status": "EX",
+      "lat": 63.0,
+      "lng": -43.5,
+      "wind_kt": 45,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441024",
+      "time_utc": "0600",
+      "status": "EX",
+      "lat": 64.5,
+      "lng": -39.0,
+      "wind_kt": 40,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    },
+    {
+      "date": "19441024",
+      "time_utc": "1200",
+      "status": "EX",
+      "lat": 66.0,
+      "lng": -34.0,
+      "wind_kt": 30,
+      "pressure_mb": null,
+      "saffir_simpson": 0,
+      "landfall": false
+    }
+  ],
+  "archives": [
+    {
+      "id": "dry-tortugas",
+      "city": "Dry Tortugas",
+      "region": "Florida Keys",
+      "lat": 24.63,
+      "lng": -82.87,
+      "note": "First Florida landfall, Oct 18 at 9:00 PM local time; Category 3 (90 kt, 949 mb).",
+      "photos": [
+        {
+          "kind": "item",
+          "title": "Dry Tortugas Light on Florida Reefs",
+          "url": "http://catalog.archives.gov/id/205573426",
+          "thumb": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/stillpix/026-g/Box_003/026-g-003-051-001.jpg",
+          "description": "Original caption: A beacon to mariners, warning of the treacherous Florida reefs at the entrance to the Gulf of Mexico, the Coast Guard lighthouse on Loggerhead Key has withstood storms and wars for 118 years. It is officially known as Dry ",
+          "date": "1939-01-01/1967-12-31",
+          "source": "National Archives at College Park - Still Pictures (via DPLA)"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "key-west",
+      "city": "Key West",
+      "region": "Florida Keys",
+      "lat": 24.555,
+      "lng": -81.78,
+      "note": "Southernmost major city; extensive damage documented by Monroe County Public Library.",
+      "photos": [
+        {
+          "kind": "collection",
+          "title": "Wikimedia Commons — 1944 Cuba–Florida hurricane category",
+          "url": "https://commons.wikimedia.org/wiki/Category:1944_Cuba%E2%80%93Florida_hurricane",
+          "count": 98,
+          "description": "98 photos from the Monroe County Public Library, browsable in a gallery view.",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM000008427x_%2815476915811%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/1944_hurricane_effects_in_Key_West_MM000008427x_%2815476915811%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM000008427x_%2815476915811%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00001332x_%2815479491455%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1944_hurricane_effects_in_Key_West_MM00001332x_%2815479491455%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00001332x_%2815479491455%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00008280x_%2815293404068%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1944_hurricane_effects_in_Key_West_MM00008280x_%2815293404068%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00008280x_%2815293404068%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00008433x_%2815476910261%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1944_hurricane_effects_in_Key_West_MM00008433x_%2815476910261%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00008433x_%2815476910261%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00008434x_%2815456947296%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/1944_hurricane_effects_in_Key_West_MM00008434x_%2815456947296%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00008434x_%2815456947296%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017061x_%2815293455539%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/1944_hurricane_effects_in_Key_West_MM00017061x_%2815293455539%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017061x_%2815293455539%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017062x_%2815293771747%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1944_hurricane_effects_in_Key_West_MM00017062x_%2815293771747%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017062x_%2815293771747%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017063x_%2815457242556%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1944_hurricane_effects_in_Key_West_MM00017063x_%2815457242556%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017063x_%2815457242556%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017064x_%2815293767667%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/1944_hurricane_effects_in_Key_West_MM00017064x_%2815293767667%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017064x_%2815293767667%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017065x_%2815477198841%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/1944_hurricane_effects_in_Key_West_MM00017065x_%2815477198841%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017065x_%2815477198841%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017066x_%2815479981932%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/1944_hurricane_effects_in_Key_West_MM00017066x_%2815479981932%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017066x_%2815479981932%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017067x_%2815477195221%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1944_hurricane_effects_in_Key_West_MM00017067x_%2815477195221%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017067x_%2815477195221%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017068x_%2815479978422%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/1944_hurricane_effects_in_Key_West_MM00017068x_%2815479978422%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017068x_%2815479978422%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017069x_%2815293676728%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/1944_hurricane_effects_in_Key_West_MM00017069x_%2815293676728%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017069x_%2815293676728%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017071x_%2815293756867%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1944_hurricane_effects_in_Key_West_MM00017071x_%2815293756867%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017071x_%2815293756867%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017072x_%2815293673238%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/1944_hurricane_effects_in_Key_West_MM00017072x_%2815293673238%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017072x_%2815293673238%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017073x_%2815293752797%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1944_hurricane_effects_in_Key_West_MM00017073x_%2815293752797%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017073x_%2815293752797%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017074x_%2815457224116%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/1944_hurricane_effects_in_Key_West_MM00017074x_%2815457224116%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017074x_%2815457224116%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017077x_%2815293665268%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1944_hurricane_effects_in_Key_West_MM00017077x_%2815293665268%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017077x_%2815293665268%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00017078x_%2815293610590%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1944_hurricane_effects_in_Key_West_MM00017078x_%2815293610590%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00017078x_%2815293610590%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM00047168x_%2832688600695%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/1944_hurricane_effects_in_Key_West_MM00047168x_%2832688600695%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM00047168x_%2832688600695%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-1x_%2815479490205%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/1944_hurricane_effects_in_Key_West_MM001332-1x_%2815479490205%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-1x_%2815479490205%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-2x_%2815292772390%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/1944_hurricane_effects_in_Key_West_MM001332-2x_%2815292772390%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-2x_%2815292772390%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-3x_%2815476344841%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/1944_hurricane_effects_in_Key_West_MM001332-3x_%2815476344841%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-3x_%2815476344841%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-4x_%2815292911637%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/1944_hurricane_effects_in_Key_West_MM001332-4x_%2815292911637%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-4x_%2815292911637%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-5x_%2815456377206%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/1944_hurricane_effects_in_Key_West_MM001332-5x_%2815456377206%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-5x_%2815456377206%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-7x_%2815479484075%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/1944_hurricane_effects_in_Key_West_MM001332-7x_%2815479484075%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-7x_%2815479484075%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM001332-9x_%2815292765950%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/1944_hurricane_effects_in_Key_West_MM001332-9x_%2815292765950%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM001332-9x_%2815292765950%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-1x_%2815479882562%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/1944_hurricane_effects_in_Key_West_MM008838-1x_%2815479882562%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-1x_%2815479882562%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-2x_%2815477094481%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/1944_hurricane_effects_in_Key_West_MM008838-2x_%2815477094481%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-2x_%2815477094481%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-3x_%2815480241045%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/1944_hurricane_effects_in_Key_West_MM008838-3x_%2815480241045%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-3x_%2815480241045%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-4x_%2815293659867%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/1944_hurricane_effects_in_Key_West_MM008838-4x_%2815293659867%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-4x_%2815293659867%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-5x_%2815457132686%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1944_hurricane_effects_in_Key_West_MM008838-5x_%2815457132686%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-5x_%2815457132686%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-6x_%2815479877232%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1944_hurricane_effects_in_Key_West_MM008838-6x_%2815479877232%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-6x_%2815479877232%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-7x_%2815293575188%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/1944_hurricane_effects_in_Key_West_MM008838-7x_%2815293575188%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-7x_%2815293575188%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-8x_%2815479875182%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1944_hurricane_effects_in_Key_West_MM008838-8x_%2815479875182%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-8x_%2815479875182%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM008838-9x_%2815479874132%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/1944_hurricane_effects_in_Key_West_MM008838-9x_%2815479874132%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM008838-9x_%2815479874132%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-10x_%2815292907537%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/1944_hurricane_effects_in_Key_West_MM01332-10x_%2815292907537%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-10x_%2815292907537%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-11x_%2815479481515%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/1944_hurricane_effects_in_Key_West_MM01332-11x_%2815479481515%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-11x_%2815479481515%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-12x_%2815292817868%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1944_hurricane_effects_in_Key_West_MM01332-12x_%2815292817868%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-12x_%2815292817868%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-13x_%2815292583039%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/1944_hurricane_effects_in_Key_West_MM01332-13x_%2815292583039%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-13x_%2815292583039%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-14x_%2815476336991%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/1944_hurricane_effects_in_Key_West_MM01332-14x_%2815476336991%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-14x_%2815476336991%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-15x_%2815292762730%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/1944_hurricane_effects_in_Key_West_MM01332-15x_%2815292762730%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-15x_%2815292762730%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-16x_%2815292815858%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/1944_hurricane_effects_in_Key_West_MM01332-16x_%2815292815858%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-16x_%2815292815858%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-17x_%2815292581229%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/1944_hurricane_effects_in_Key_West_MM01332-17x_%2815292581229%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-17x_%2815292581229%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-18x_%2815292903397%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/1944_hurricane_effects_in_Key_West_MM01332-18x_%2815292903397%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-18x_%2815292903397%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-19x_%2815292580219%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/1944_hurricane_effects_in_Key_West_MM01332-19x_%2815292580219%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-19x_%2815292580219%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-20x_%2815292813528%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/1944_hurricane_effects_in_Key_West_MM01332-20x_%2815292813528%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-20x_%2815292813528%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-29x_%2815292759040%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1944_hurricane_effects_in_Key_West_MM01332-29x_%2815292759040%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-29x_%2815292759040%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-30x_%2815293039927%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/1944_hurricane_effects_in_Key_West_MM01332-30x_%2815293039927%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-30x_%2815293039927%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-31x_%2815292897460%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1944_hurricane_effects_in_Key_West_MM01332-31x_%2815292897460%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-31x_%2815292897460%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-32x_%2815479614965%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/1944_hurricane_effects_in_Key_West_MM01332-32x_%2815479614965%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-32x_%2815479614965%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-33x_%2815292950168%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/1944_hurricane_effects_in_Key_West_MM01332-33x_%2815292950168%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-33x_%2815292950168%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-34x_%2815479614105%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1944_hurricane_effects_in_Key_West_MM01332-34x_%2815479614105%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-34x_%2815479614105%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-35x_%2815292713829%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1944_hurricane_effects_in_Key_West_MM01332-35x_%2815292713829%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-35x_%2815292713829%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-36x_%2815456505786%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/1944_hurricane_effects_in_Key_West_MM01332-36x_%2815456505786%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-36x_%2815456505786%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-37x_%2815479253022%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/1944_hurricane_effects_in_Key_West_MM01332-37x_%2815479253022%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-37x_%2815479253022%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-38x_%2815292947818%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/1944_hurricane_effects_in_Key_West_MM01332-38x_%2815292947818%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-38x_%2815292947818%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-39x_%2815292712049%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1944_hurricane_effects_in_Key_West_MM01332-39x_%2815292712049%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-39x_%2815292712049%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-40x_%2815476467411%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/1944_hurricane_effects_in_Key_West_MM01332-40x_%2815476467411%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-40x_%2815476467411%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-41x_%2815292711269%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/1944_hurricane_effects_in_Key_West_MM01332-41x_%2815292711269%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-41x_%2815292711269%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-42x_%2815292946288%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/1944_hurricane_effects_in_Key_West_MM01332-42x_%2815292946288%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-42x_%2815292946288%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-43x_%2815479610135%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1944_hurricane_effects_in_Key_West_MM01332-43x_%2815479610135%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-43x_%2815479610135%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-44x_%2815292710109%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/1944_hurricane_effects_in_Key_West_MM01332-44x_%2815292710109%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-44x_%2815292710109%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-45x_%2815479249572%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1944_hurricane_effects_in_Key_West_MM01332-45x_%2815479249572%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-45x_%2815479249572%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-46x_%2815479608745%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1944_hurricane_effects_in_Key_West_MM01332-46x_%2815479608745%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-46x_%2815479608745%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-47x_%2815476464481%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/1944_hurricane_effects_in_Key_West_MM01332-47x_%2815476464481%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-47x_%2815476464481%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-48x_%2815456500716%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1944_hurricane_effects_in_Key_West_MM01332-48x_%2815456500716%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-48x_%2815456500716%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-49x_%2815292890020%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/1944_hurricane_effects_in_Key_West_MM01332-49x_%2815292890020%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-49x_%2815292890020%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-50x_%2815456500046%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/1944_hurricane_effects_in_Key_West_MM01332-50x_%2815456500046%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-50x_%2815456500046%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-51x_%2815292942568%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/1944_hurricane_effects_in_Key_West_MM01332-51x_%2815292942568%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-51x_%2815292942568%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-54x_%2815479246522%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/1944_hurricane_effects_in_Key_West_MM01332-54x_%2815479246522%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-54x_%2815479246522%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-55x_%2815292888060%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1944_hurricane_effects_in_Key_West_MM01332-55x_%2815292888060%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-55x_%2815292888060%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-56x_%2815292940928%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/1944_hurricane_effects_in_Key_West_MM01332-56x_%2815292940928%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-56x_%2815292940928%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-57x_%2815476461151%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/1944_hurricane_effects_in_Key_West_MM01332-57x_%2815476461151%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-57x_%2815476461151%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-58x_%2815292940138%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/1944_hurricane_effects_in_Key_West_MM01332-58x_%2815292940138%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-58x_%2815292940138%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM01332-59x_%2815292704899%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/1944_hurricane_effects_in_Key_West_MM01332-59x_%2815292704899%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM01332-59x_%2815292704899%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-10_%288094776837%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/1944_hurricane_effects_in_Key_West_MM08838-10_%288094776837%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-10_%288094776837%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-10x_%2815293653107%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1944_hurricane_effects_in_Key_West_MM08838-10x_%2815293653107%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-10x_%2815293653107%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-11x_%2815293518800%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/1944_hurricane_effects_in_Key_West_MM08838-11x_%2815293518800%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-11x_%2815293518800%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-12x_%2815480231585%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/1944_hurricane_effects_in_Key_West_MM08838-12x_%2815480231585%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-12x_%2815480231585%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-13x_%2815480230615%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1944_hurricane_effects_in_Key_West_MM08838-13x_%2815480230615%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-13x_%2815480230615%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-14x_%2815477081911%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/1944_hurricane_effects_in_Key_West_MM08838-14x_%2815477081911%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-14x_%2815477081911%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-16x_%2815479868262%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/1944_hurricane_effects_in_Key_West_MM08838-16x_%2815479868262%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-16x_%2815479868262%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-18x_%2815293330089%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/1944_hurricane_effects_in_Key_West_MM08838-18x_%2815293330089%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-18x_%2815293330089%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-19x_%2815293511940%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1944_hurricane_effects_in_Key_West_MM08838-19x_%2815293511940%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-19x_%2815293511940%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-20x_%2815293643847%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1944_hurricane_effects_in_Key_West_MM08838-20x_%2815293643847%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-20x_%2815293643847%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-22_%288094782196%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/1944_hurricane_effects_in_Key_West_MM08838-22_%288094782196%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-22_%288094782196%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-22x_%2815480223745%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1944_hurricane_effects_in_Key_West_MM08838-22x_%2815480223745%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-22x_%2815480223745%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-24x_%2815293642567%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1944_hurricane_effects_in_Key_West_MM08838-24x_%2815293642567%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-24x_%2815293642567%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "1944 hurricane effects in Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3A1944_hurricane_effects_in_Key_West_MM08838-26x_%2815477075451%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/1944_hurricane_effects_in_Key_West_MM08838-26x_%2815477075451%29.jpg/500px-1944_hurricane_effects_in_Key_West_MM08838-26x_%2815477075451%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane Thirteen surface analysis 1944 Oct 17 18z",
+          "url": "https://commons.wikimedia.org/wiki/File%3AHurricane_Thirteen_surface_analysis_1944_Oct_17_18z.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hurricane_Thirteen_surface_analysis_1944_Oct_17_18z.jpg/500px-Hurricane_Thirteen_surface_analysis_1944_Oct_17_18z.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane Thirteen surface analysis 1944 Oct 21 0630z",
+          "url": "https://commons.wikimedia.org/wiki/File%3AHurricane_Thirteen_surface_analysis_1944_Oct_21_0630z.png",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hurricane_Thirteen_surface_analysis_1944_Oct_21_0630z.png/500px-Hurricane_Thirteen_surface_analysis_1944_Oct_21_0630z.png",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane damage, Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3AMM00017075x_%2815480329155%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/MM00017075x_%2815480329155%29.jpg/500px-MM00017075x_%2815480329155%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane damage, Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3AMM00018729x_%2812702358995%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/MM00018729x_%2812702358995%29.jpg/500px-MM00018729x_%2812702358995%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane damage, Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3AMM00039109x_%2812702437883%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/MM00039109x_%2812702437883%29.jpg/500px-MM00039109x_%2812702437883%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane damage, Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3AMM00046697x_%2836843789524%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/MM00046697x_%2836843789524%29.jpg/500px-MM00046697x_%2836843789524%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane damage, Key West",
+          "url": "https://commons.wikimedia.org/wiki/File%3AMM08838-26x_%2815477075451%29.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/MM08838-26x_%2815477075451%29.jpg/500px-MM08838-26x_%2815477075451%29.jpg",
+          "source": "Monroe County Public Library / Wikimedia Commons"
+        },
+        {
+          "kind": "item",
+          "title": "Dry Tortugas Light on Florida Reefs",
+          "url": "http://catalog.archives.gov/id/205573426",
+          "thumb": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/stillpix/026-g/Box_003/026-g-003-051-001.jpg",
+          "description": "Original caption: A beacon to mariners, warning of the treacherous Florida reefs at the entrance to the Gulf of Mexico, the Coast Guard lighthouse on Loggerhead Key has withstood storms and wars for 118 years. It is officially known as Dry ",
+          "date": "1939-01-01/1967-12-31",
+          "source": "National Archives at College Park - Still Pictures (via DPLA)"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "sarasota",
+      "city": "Sarasota",
+      "region": "Southwest Gulf Coast",
+      "lat": 27.336,
+      "lng": -82.531,
+      "note": "Second (mainland) landfall near Sarasota, Oct 19 ~7:00 AM local time; Category 2 (90 kt, 962 mb).",
+      "photos": [],
+      "news": []
+    },
+    {
+      "id": "fort-myers-beach",
+      "city": "Fort Myers Beach / Estero Island",
+      "region": "Southwest Gulf Coast",
+      "lat": 26.454,
+      "lng": -81.95,
+      "note": "Storm surge of 3–6 ft inundated the entire island; 15+ cottages destroyed; fishing pier lost.",
+      "photos": [
+        {
+          "kind": "item",
+          "title": "Ruth Brame in front of the Gulf Shores Inn",
+          "url": "https://www.floridamemory.com/items/show/3189",
+          "thumb": "https://floridamemory.com/fpc/prints/pr03354.gif",
+          "description": "Women—Florida—Lee County—Fort Myers; post-hurricane portrait.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "fernandina-beach",
+      "city": "Fernandina Beach / Amelia Island",
+      "region": "Northeast Atlantic Coast",
+      "lat": 30.67,
+      "lng": -81.462,
+      "note": "Exit region; 43 homes damaged on north end of Fletcher Ave; storm became extratropical over the Carolinas.",
+      "photos": [
+        {
+          "kind": "collection",
+          "title": "Homes damaged, Fletcher Ave — 30 photographs",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/44649D29-D067-4531-A493-190734920822",
+          "count": 30,
+          "description": "Collection of 30 photographs; October 1944; 43 homes damaged on Fletcher Ave; includes 1735 house.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "collection",
+          "title": "Hurricane of 1944 — Cohen Brothers, Jacksonville — 35 photographs",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/39A99C33-560E-4B62-9B40-079823493293",
+          "count": 35,
+          "description": "Collection of 35 pictures; addressed to Cohen Brothers, Jacksonville.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — Fernandina Beach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/58ACAA34-7459-4FE4-AD1D-072051306976",
+          "description": "Fernandina Beach after the 1944 hurricane.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/B08A82A0-C834-4284-9328-601717817600",
+          "description": "Damage from the hurricane of 1944.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — Fernandina Beach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/1D6FF62A-2B86-49B5-A780-540104338820",
+          "description": "Damage on Fernandina Beach from the hurricane of 1944.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — elderly couple on beach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/C088D928-8C2B-493D-ACA0-939729693251",
+          "description": "Elderly couple on beach with damaged houses visible.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — looking north, old casino",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/40EA3217-EA91-41F8-9790-421204835136",
+          "description": "Looking north on Fernandina Beach after the 1944 hurricane; old casino noted.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — Fernandina Beach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/E97BD764-39F1-4B6B-81AD-285851563544",
+          "description": "Fernandina Beach post-hurricane scene.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — surviving cottage",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/06529731-AEB9-4C33-8500-789469660530",
+          "description": "Cottage example showing not all structures were destroyed.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — Fernandina Beach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/3E7718A5-AE38-4A93-93A7-667364498136",
+          "description": "Fernandina Beach damage scene.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "1944 Hurricane Damage — piano in foreground",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/F6D641F3-190D-4F10-BEA5-035038461260",
+          "description": "Damage from the hurricane of 1944. Piano in foreground.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Damage from 1944 Hurricane",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/232891E0-F201-4027-BB97-975777219270",
+          "description": "Post-hurricane Fernandina Beach.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Damage from 1944 Hurricane",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/B27842C8-911D-4D13-B7BC-074994742504",
+          "description": "Fernandina Beach damage documentation.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Hurricane of 1944 — damage north of Log Cabin",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/5F8E4F1A-4860-46E8-9753-824434035533",
+          "description": "1878 house visible; damage north of Log Cabin.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Photograph of 1944 Fernandina Hurricane Damage",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/25007239-8ED2-4A12-A715-635421446192",
+          "description": "Hurricane damage documentation.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Photograph of 1944 Fernandina Hurricane Damage",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/48AD54B2-B00B-4635-9093-625431273887",
+          "description": "Hurricane damage documentation.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Lucile Dixon Bennett facing 1944 Hurricane Damage",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/2DEB4D17-174D-4038-AB66-204271256146",
+          "description": "Named individual depicted with damage background.",
+          "source": "Amelia Island Museum of History"
+        },
+        {
+          "kind": "item",
+          "title": "Mrs. Roger's Beach Cottage — first south of the old driving approach",
+          "url": "https://ameliaisland.pastperfectonline.com/photo/E8CBAE42-0208-455A-920F-331146124983",
+          "description": "Two women in bathing suits; postcard view.",
+          "source": "Amelia Island Museum of History"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "tampa",
+      "city": "Tampa / St. Petersburg",
+      "region": "Tampa Bay",
+      "lat": 27.9506,
+      "lng": -82.4572,
+      "note": "Major metro ~60 mi north of landfall; lashed by the storm's north quadrant on Oct 19, 1944.",
+      "photos": [],
+      "news": [
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — Un Ciclón Cerca de la Costa Sur de Cuba",
+          "url": "https://ufdc.ufl.edu/UF00028296/10101",
+          "date": "1944-10-14",
+          "snippet": "en|tud cae y las iglesias se lle lle. . lle. nan todos los domingos! | ¿Hacia qué parte rueda _ºel civismo... ? 'Un Ciclón Cerca de la 'Costa Sur de Cuba | . . | MIAMI, Oct. 14. —Un ciclón | se encuentra hoy cerca de la cos cos| | cos| ta sur de Cuba, según la oficina j¡ocal de meteorología. Todas l",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — huracán del Caribe, oficina meteorológica",
+          "url": "https://ufdc.ufl.edu/UF00028296/10102",
+          "date": "1944-10-16",
+          "snippet": "el martes. Hasta la mañana de hoy no producía inquietud, en la ofici oficina na oficina meteorológica local, el hura huracán cán huracán del Caribe que amenaza a Cuba. “El ciclón es muy intenso, di dijo jo dijo Mr. Talbott: pero se mueve con gran lentitud”. Las Tropas de Dempsey Se Acercan a Venraij",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — medidas extraordinarias, huracán 90-100 mph",
+          "url": "https://ufdc.ufl.edu/UF00028296/10103",
+          "date": "1944-10-17",
+          "snippet": ", | — Extraordinarias medidas se han tomado en es- — ta ciudad, la Isla de Pinos y Pinar del Río. Posible es que el huracán, con viento de 90 a 100 millas, azote también a la Florida. Los cinematógrafos de la Habana no se abrirán — en la noche de hoy. En conjunto el peligro puede extenderse desde La",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — barco canadiense sale del puerto en pleno huracán",
+          "url": "https://ufdc.ufl.edu/UF00028296/10104",
+          "date": "1944-10-18",
+          "snippet": "s de las obreras unionadas la se señora ñora señora Virginia Sierra. UN BARCO CANADIENSE SALIO DEL PUERTO EN PLENO HURACAN Incendios en los muelles de la Flota Flanca y el “Roof Garden” del hotel “Plaza”. Sólo se sabe de la muerte de dos personas. NOTICIAS DE ULTIMA HORA HABANA, Oct. 18. — El huracá",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — ¡Paso El Ciclón Por Tampa! (edición especial)",
+          "url": "https://ufdc.ufl.edu/UF00028296/10105",
+          "date": "1944-10-19",
+          "snippet": "Dill fueror llevados a un lal establecido en % piso de uno de los \"angares, todos ellos fa fa-4 -4 fa-4 prueba de huracán. * y documentos de va vaa-'íº'íéifw'x a-'íº'íéifw'x vaa-'íº'íéifw'x a los edificios 'hí\"-\"'º “** tomaron para º taso Necesario, a - los - Tesidentes en los de-| \"s que el gobiern",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — Enormes Daños Ocasionó Huracán En Cuba",
+          "url": "https://ufdc.ufl.edu/UF00028296/10106",
+          "date": "1944-10-20",
+          "snippet": "[II. — Número 246 Bormes Danos Ocasiono | Huracan En Cuba tiesan los Alemanes erdida de Eydtkau riunfos del ejército rojo en Polonia, ¡a y otros frentes. — Al enemigo se hicieron once mil prisioneros. ¿ Z a UNIDOS -A —| 150 PROMESA ) | [ | .” | lt envió m",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — Manteiga, víctimas de huracanes anteriores",
+          "url": "https://ufdc.ufl.edu/UF00028296/10107",
+          "date": "1944-10-21",
+          "snippet": "Manteiga, habló sobre las cues cuese e cuese en el pasado se hicieran en Tampa, para * Cuba a víctimas de anteriores huracanes, y de \"Zación que tuvieron. oº:¿º:¡d:c(=¡º formar un Comité Ejecutivo, que Nde | €, en el Círculo Cubu_¡o,_ con las re re. . re. las colectividades que asistieron y brin- Co",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — Comité Pro Damnificados Cubanos del huracán",
+          "url": "https://ufdc.ufl.edu/UF00028296/10108",
+          "date": "1944-10-23",
+          "snippet": "Florentino Santos a ii o a a EA | Una importante rreunión del Comité Pro Damnificados cuba cubanos nos cubanos del huracán que pasara por Cuba y la Florida, se efectuó el sábado en la secretaría de la so sociedad ciedad sociedad Círculo Cubano. Luego de un cambio de impre impresiones, siones, impres",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — detenciones, listas, cuestación del huracán",
+          "url": "https://ufdc.ufl.edu/UF00028296/10109",
+          "date": "1944-10-24",
+          "snippet": "legales. ' ¡Quien se niegue a fijar las listas en los lugares indicados, será detenido y castigado! Con motivo del huracán, algunos co comerciantes merciantes comerciantes elevaron los precios a su gus gusto, to, gusto, criminalmente, y ahora deberán rendir cuentas por sus errores. Grau se propone d",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — árboles derribados, limpieza por el huracán",
+          "url": "https://ufdc.ufl.edu/UF00028296/10110",
+          "date": "1944-10-25",
+          "snippet": "or, entre elios uno del señor Sanborn, superintendente de parques, so sobre bre sobre los árboles derribados por el huracán y la limpieza de arbustos y yerbas. A Johnny Olmedo se le conce concedió dió concedió un permiso para vender be bebidas bidas bebidas alcohólicas en el número 1512 de calle 16.",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "La gaceta — Cuestación Para Las Víctimas Del Huracán",
+          "url": "https://ufdc.ufl.edu/UF00028296/10111",
+          "date": "1944-10-26",
+          "snippet": "que una solución se será rá será encontrada de hoy a maña mañana. na. mañana. La Cuestación Para Las Víctimas Del Huracán 'Que Azotara a Cuba Dinero recibido en la secretaría del Círeulo Cubano a favor de las víctimas del ciclón en Cuba, hasta el miércoles 25 dé octubre de 1944: E. Salcines, $100; J",
+          "source": "La gaceta (Tampa, bilingual) — UFDC"
+        }
+      ]
+    },
+    {
+      "id": "orlando",
+      "city": "Orlando",
+      "region": "Central Florida",
+      "lat": 28.5383,
+      "lng": -81.3792,
+      "note": "Storm track crossed central Florida on Oct 19, 1944, near Orlando after Sarasota landfall.",
+      "photos": [],
+      "news": []
+    },
+    {
+      "id": "jacksonville",
+      "city": "Jacksonville",
+      "region": "Northeast Florida",
+      "lat": 30.3322,
+      "lng": -81.6557,
+      "note": "Storm passed just south and exited the NE Florida coast near Jacksonville/Fernandina on Oct 19, 1944.",
+      "photos": [],
+      "news": [
+        {
+          "kind": "newspaper-issue",
+          "title": "The Southern Jewish Weekly — issue late due to the hurricane which struck Jacksonville Thursday",
+          "url": "https://www.loc.gov/resource/sn78000090/1944-10-01/ed-1/?sp=3&st=text&q=hurricane",
+          "date": "1944-10-01",
+          "snippet": "\"Sorry We are Late! This issue of The Southern Jewish Monthly is late due to the hurricane which struck Jacksonville Thursday. — The Editor.\" (Oct 19, 1944 was a Thursday — masthead-dated Oct 1 but published post-storm.)",
+          "source": "The Southern Jewish Weekly (Jacksonville) — LOC Chronicling America"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "Gadsden County Times — tropical hurricane struck St. Petersburg, Tampa, Jacksonville (160 mph)",
+          "url": "https://www.loc.gov/resource/sn95047334/1944-10-19/ed-1/?sp=1&st=text&q=hurricane",
+          "date": "1944-10-19",
+          "snippet": "\"...struck the St. Petersburg and Tampa area this morning and was turning to the northeast. It was expected to reach Jacksonville sometime in the late afternoon... the hurricane was said to have reached a velocity of 160 miles per hour... traveling forward at about 12 miles per hour.\"",
+          "source": "Gadsden County Times (Quincy) — LOC Chronicling America"
+        }
+      ]
+    },
+    {
+      "id": "saint-augustine",
+      "city": "Saint Augustine",
+      "region": "Northeast Atlantic Coast",
+      "lat": 29.8947,
+      "lng": -81.3145,
+      "note": "Historic coastal city lashed by the storm's NE quadrant on Oct 19–20, 1944; widespread flooding and downed trees.",
+      "photos": [
+        {
+          "kind": "item",
+          "title": "Destruction left in the wake of a hurricane — Saint Augustine",
+          "url": "https://www.floridamemory.com/items/show/36081",
+          "thumb": "https://floridamemory.com/fpc/reference/rc13795.gif",
+          "description": "Floods—Florida—Saint Augustine.",
+          "date": "1944-10-20",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Downed trees in Saint Augustine after hurricane of 1944",
+          "url": "https://www.floridamemory.com/items/show/141392",
+          "thumb": "https://floridamemory.com/fpc/general/n031883.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Flooded Saint Augustine street near the Bridge of Lions after 1944 hurricane",
+          "url": "https://www.floridamemory.com/items/show/141389",
+          "thumb": "https://floridamemory.com/fpc/general/n031880.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Downed trees, branches and power lines after the 1944 hurricane at Saint Augustine",
+          "url": "https://www.floridamemory.com/items/show/141391",
+          "thumb": "https://floridamemory.com/fpc/general/n031882.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Downed trees next to the slave market — Saint Augustine",
+          "url": "https://www.floridamemory.com/items/show/141390",
+          "thumb": "https://floridamemory.com/fpc/general/n031881.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Flooded Saint Augustine street after 1944 hurricane",
+          "url": "https://www.floridamemory.com/items/show/141393",
+          "thumb": "https://floridamemory.com/fpc/general/n031884.gif",
+          "description": "Flood damage.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Flooded streets after the 1944 hurricane",
+          "url": "https://www.floridamemory.com/items/show/141388",
+          "thumb": "https://floridamemory.com/fpc/general/n031879.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Water-filled streets in Saint Augustine, Florida after 1944 hurricane",
+          "url": "https://www.floridamemory.com/items/show/141387",
+          "thumb": "https://floridamemory.com/fpc/general/n031878.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "High winds at Saint Augustine",
+          "url": "https://www.floridamemory.com/items/show/4119",
+          "thumb": "https://floridamemory.com/fpc/prints/pr04452.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "High winds at Saint Augustine",
+          "url": "https://www.floridamemory.com/items/show/4120",
+          "thumb": "https://floridamemory.com/fpc/prints/pr04453.gif",
+          "description": "Hurricanes—Florida—Saint Augustine.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "naples",
+      "city": "Naples",
+      "region": "Southwest Gulf Coast",
+      "lat": 26.142,
+      "lng": -81.7948,
+      "note": "Collier County coast north of the Cape Romano / Ten Thousand Islands; pier destroyed and shoreline peat exposed after the Oct 19, 1944 hurricane.",
+      "photos": [
+        {
+          "kind": "item",
+          "title": "Remains of the Naples beach pier after the hurricane",
+          "url": "https://www.floridamemory.com/items/show/125559",
+          "thumb": "https://floridamemory.com/fpc/geology/ge1694.gif",
+          "description": "Hurricanes—Florida—Collier County—Naples.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        },
+        {
+          "kind": "item",
+          "title": "Mangrove peat exposed after the hurricane",
+          "url": "https://www.floridamemory.com/items/show/125563",
+          "thumb": "https://floridamemory.com/fpc/geology/ge1698.gif",
+          "description": "Geology—Florida—Collier County; shoreline peat exposed by storm erosion.",
+          "date": "1944",
+          "source": "State Archives of Florida / Florida Memory"
+        }
+      ],
+      "news": []
+    },
+    {
+      "id": "miami",
+      "city": "Miami",
+      "region": "Southeast Atlantic Coast",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "note": "East-coast metro ~150 mi east of the Gulf-side storm path; felt outer rain bands and lost citrus/fruit crops.",
+      "photos": [],
+      "news": [
+        {
+          "kind": "newspaper-issue",
+          "title": "Miami Citizen — fruit blown from trees during recent hurricane",
+          "url": "https://www.loc.gov/resource/sn95047217/1944-10-26/ed-1/?sp=1&st=text&q=hurricane",
+          "date": "1944-10-26",
+          "snippet": "\"...the secretary of agriculture in the state of Florida be requested to assist the fruit growers in salvaging the fruit which was blown from the trees during the recent hurricane...\"",
+          "source": "Miami Citizen — LOC Chronicling America"
+        }
+      ]
+    },
+    {
+      "id": "brooksville",
+      "city": "Brooksville",
+      "region": "Central-West Florida (Hernando County)",
+      "lat": 28.5555,
+      "lng": -82.3887,
+      "note": "Hernando County, ~45 mi N of Tampa; the storm centered just west and caused 25-90% vegetable losses and major citrus damage across the region.",
+      "photos": [],
+      "news": [
+        {
+          "kind": "newspaper-issue",
+          "title": "Brooksville Journal — citrus growers biggest sufferers from tropical hurricane",
+          "url": "https://www.loc.gov/resource/sn95047246/1944-10-19/ed-1/?sp=1&st=text&q=hurricane",
+          "date": "1944-10-19",
+          "snippet": "\"Hernando county citrus growers will be the biggest sufferers from the tropical hurricane which visited the state and this section last night and this morning at an early hour... damage, however, to citrus can be considered slight in comparison with other sections where the storm proved to be the worst.\"",
+          "source": "The Brooksville Journal — LOC Chronicling America"
+        },
+        {
+          "kind": "newspaper-issue",
+          "title": "Brooksville Journal — vegetable losses 25-90%, OPA asked to remove ceilings",
+          "url": "https://www.loc.gov/resource/sn95047246/1944-10-26/ed-1/?sp=1&st=text&q=hurricane",
+          "date": "1944-10-26",
+          "snippet": "\"On the basis of Florida vegetable losses ranging from 25 to 90 percent due to the hurricane, the Florida Vegetable Committee has requested that all vegetable price ceilings be removed by the Office of Price Administration...\" Also: power-company line crews were brought in from as far as Atlanta and Birmingham.",
+          "source": "The Brooksville Journal — LOC Chronicling America"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+[18:38:52] WARMUP https://www.floridamemory.com/items/show/153868
+[18:38:55]   cleared: 'Florida Memory • Hurricane action shot in Miami Beach, Florida.'
+[18:38:55] 
+GET [tampa] p1: https://www.floridamemory.com/find?keywords=hurricane+Tampa+1944
+[18:40:07]   title=''  size=39
+[18:40:07]   links: 0
+[18:40:07] 
+GET [tampa] p2: https://www.floridamemory.com/find?keywords=hurricane+Tampa+1944&page=2
+[18:40:39]   title='Florida Memory • 1 item found'  size=85993
+[18:40:39]   links: 0
+[18:40:39] 
+GET [orlando] p1: https://www.floridamemory.com/find?keywords=hurricane+Orlando+1944
+[18:41:14]   title='Florida Memory • 0 items found'  size=80357
+[18:41:14]   links: 0
+[18:41:14] 
+GET [orlando] p2: https://www.floridamemory.com/find?keywords=hurricane+Orlando+1944&page=2
+[18:41:48]   title='Florida Memory • 0 items found'  size=80390
+[18:41:48]   links: 0
+[18:41:48] 
+GET [jacksonville] p1: https://www.floridamemory.com/find?keywords=hurricane+Jacksonville+1944
+[18:42:21]   title='Florida Memory • 0 items found'  size=80377
+[18:42:21]   links: 0
+[18:42:21] 
+GET [jacksonville] p2: https://www.floridamemory.com/find?keywords=hurricane+Jacksonville+1944&page=2
+[18:42:58]   title='Florida Memory • 0 items found'  size=80410
+[18:42:58]   links: 0
+[18:42:58] 
+GET [fort-myers] p1: https://www.floridamemory.com/find?keywords=hurricane+Fort+Myers+1944
+[18:43:36]   title='Florida Memory • 5 items found'  size=99340
+[18:43:36]   links: 5
+[18:43:36] 
+GET [fort-myers] p2: https://www.floridamemory.com/find?keywords=hurricane+Fort+Myers+1944&page=2
+[18:44:11]   title='Florida Memory • 5 items found'  size=86041
+[18:44:11]   links: 0
+[18:44:11]   [fort-myers 1/5] https://www.floridamemory.com/items/show/258158
+[18:44:13]     date=1921  subj=Houses--Florida--Lee County--Fort Myers Beach
+[18:44:13]   [fort-myers 2/5] https://www.floridamemory.com/items/show/258122
+[18:44:15]     date=1921  subj=Natural disasters--Florida--Lee County--Fort Myers Beach
+[18:44:15]   [fort-myers 3/5] https://www.floridamemory.com/items/show/257272
+[18:44:18]     date=1921  subj=Tombs--Hurricane effects
+[18:44:18]   [fort-myers 4/5] https://www.floridamemory.com/items/show/3189
+[18:44:20]     date=1944  subj=Women--Florida--Lee County--Fort Myers
+[18:44:20]   [fort-myers 5/5] https://www.floridamemory.com/items/show/256835
+[18:44:22]     date=1909 (circa)  subj=Tombs
+[18:44:22] 
+GET [sarasota] p1: https://www.floridamemory.com/find?keywords=hurricane+Sarasota+1944
+[18:44:59]   title='Florida Memory • 0 items found'  size=80361
+[18:44:59]   links: 0
+[18:44:59] 
+GET [sarasota] p2: https://www.floridamemory.com/find?keywords=hurricane+Sarasota+1944&page=2
+[18:45:40]   title='Florida Memory • 0 items found'  size=80394
+[18:45:40]   links: 0
+[18:45:40] 
+GET [naples] p1: https://www.floridamemory.com/find?keywords=hurricane+Naples+1944
+[18:46:12]   title='Florida Memory • 2 items found'  size=90323
+[18:46:12]   links: 2
+[18:46:12] 
+GET [naples] p2: https://www.floridamemory.com/find?keywords=hurricane+Naples+1944&page=2
+[18:46:39]   title='Florida Memory • 2 items found'  size=86005
+[18:46:39]   links: 0
+[18:46:39]   [naples 1/2] https://www.floridamemory.com/items/show/125559
+[18:46:41]     date=1944  subj=Hurricanes--Florida--Collier County--Naples
+[18:46:41]   [naples 2/2] https://www.floridamemory.com/items/show/125563
+[18:46:43]     date=1944  subj=Geology--Florida--Collier County
+[18:46:43] 
+GET [key-west] p1: https://www.floridamemory.com/find?keywords=hurricane+Key+West+1944
+[18:47:10]   title='Florida Memory • 1 item found'  size=88496
+[18:47:10]   links: 1
+[18:47:10] 
+GET [key-west] p2: https://www.floridamemory.com/find?keywords=hurricane+Key+West+1944&page=2
+[18:47:31]   title='Florida Memory • 1 item found'  size=86020
+[18:47:31]   links: 0
+[18:47:31]   [key-west 1/1] https://www.floridamemory.com/items/show/259273
+[18:47:33]     date=1935 (circa)  subj=Real photo postcards
+[18:47:33] 
+GET [daytona] p1: https://www.floridamemory.com/find?keywords=hurricane+Daytona+1944
+[18:47:51]   title='Florida Memory • 0 items found'  size=80357
+[18:47:51]   links: 0
+[18:47:51] 
+GET [daytona] p2: https://www.floridamemory.com/find?keywords=hurricane+Daytona+1944&page=2
+[18:48:09]   title='Florida Memory • 0 items found'  size=80390
+[18:48:09]   links: 0
+[18:48:09] 
+GET [miami] p1: https://www.floridamemory.com/find?keywords=hurricane+Miami+1944
+[18:48:29]   title='Florida Memory • 0 items found'  size=80349
+[18:48:29]   links: 0
+[18:48:29] 
+GET [miami] p2: https://www.floridamemory.com/find?keywords=hurricane+Miami+1944&page=2
+[18:48:45]   title='Florida Memory • 0 items found'  size=80382
+[18:48:45]   links: 0
+[18:48:45] 
+Saved /Users/paul/code/catmodel/historyhurricanes/tests/auto/florida_memory_cities_1944.json
+[18:48:45] 
+=== 1944 items by city ===
+[18:48:45]   tampa           query-matches=0  1944=0
+[18:48:45]   orlando         query-matches=0  1944=0
+[18:48:45]   jacksonville    query-matches=0  1944=0
+[18:48:45]   fort-myers      query-matches=5  1944=1
+[18:48:45]   sarasota        query-matches=0  1944=0
+[18:48:45]   naples          query-matches=2  1944=2
+[18:48:45]   key-west        query-matches=1  1944=0
+[18:48:45]   daytona         query-matches=0  1944=0
+[18:48:45]   miami           query-matches=0  1944=0

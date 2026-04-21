@@ -1,0 +1,65 @@
+@startuml algorithm_part2
+title Hurricane Chronicles — Algorithm Part 2: Regional → Verify → Render
+
+skinparam activityBackgroundColor #f5f6fa
+skinparam activityBorderColor #495057
+skinparam activityDiamondBackgroundColor #fff9db
+skinparam activityDiamondBorderColor #e67700
+skinparam partitionBackgroundColor #eef3ff
+skinparam arrowColor #495057
+skinparam shadowing false
+skinparam defaultFontName Helvetica
+
+start
+:Candidate items pooled from Part 1;
+
+partition "4. Regional Tier — Museums + Opportunistic" {
+  fork
+    :PastPerfect per museum;
+    if (/search redirects to ContactAdmin?) then (admin-locked)
+      :Skip museum;
+    else (open)
+      :GET /search?keywords=YYYY+hurricane;
+    endif
+  fork again
+    :Google News Archive
+    (frozen; URL-driven probe);
+  fork again
+    :Internet Archive newspapers
+    (Scholar / fulltext JSON);
+  fork again
+    :DPLA (last resort; location-check hits);
+  end fork
+}
+
+partition "5. Verification & Curation" {
+  :Fetch OCR text for each candidate;
+  if (storm term AND city alias
+  within 700 chars?) then (yes)
+    if (matches noise catalog?
+    Hurricane Pie, Hawker Hurricane,
+    Wyoming Hurricane, storm sash, ...) then (yes)
+      :Drop;
+    else (no)
+      :Build snippet ±100/220 chars;
+      :Build landing URL with
+      &q=term highlight parameter;
+      :Keep {title, url, date, thumb, snippet, source};
+    endif
+  else (no)
+    :Drop (keyword coincidence);
+  endif
+  :Rank by date proximity to storm;
+  :Cap per city (MAX_PER_CITY=12);
+}
+
+partition "6. Merge & Render" {
+  :Merge into data/storms/{id}.json
+  preserving non-auto-curated items;
+  :Hide circles where photos + news = 0;
+  :<mark> matched terms in UI snippets;
+}
+
+stop
+
+@enduml
