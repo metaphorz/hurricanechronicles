@@ -68,7 +68,28 @@
     summaryEl.hidden = false;
   }
 
+  const BASE_RADIUS = 3.5;
+  const BASE_LANDFALL_RADIUS = 7;
+  const BASE_ZOOM = 6;
+  const trackMarkers = [];
+
+  function zoomScale() {
+    const z = map.getZoom();
+    return Math.max(0.85, 1 + (z - BASE_ZOOM) * 0.18);
+  }
+
+  function applyZoomRadius() {
+    const s = zoomScale();
+    trackMarkers.forEach(({ marker, isLandfall }) => {
+      marker.setRadius((isLandfall ? BASE_LANDFALL_RADIUS : BASE_RADIUS) * s);
+    });
+  }
+
+  map.on('zoomend', applyZoomRadius);
+
   function renderTrack(track) {
+    trackMarkers.length = 0;
+
     const coords = track.map(p => [p.lat, p.lng]);
     L.polyline(coords, {
       color: '#1f4cc4',
@@ -76,23 +97,25 @@
       opacity: 0.85,
     }).addTo(stormLayer);
 
+    const s = zoomScale();
     track.forEach(p => {
       const color = catColor(p.saffir_simpson, p.status);
       const isLandfall = p.landfall;
       const marker = L.circleMarker([p.lat, p.lng], {
-        radius: isLandfall ? 7 : 3.5,
+        radius: (isLandfall ? BASE_LANDFALL_RADIUS : BASE_RADIUS) * s,
         color: isLandfall ? '#fff' : color,
         weight: isLandfall ? 2 : 1,
         fillColor: isLandfall ? '#d64500' : color,
         fillOpacity: 0.9,
       }).addTo(stormLayer);
+      trackMarkers.push({ marker, isLandfall: !!isLandfall });
 
       const when = formatWhen(p.date, p.time_utc);
       const cat = p.status === 'HU' ? `Cat ${p.saffir_simpson}` : p.status;
       const press = p.pressure_mb ? `, ${p.pressure_mb} mb` : '';
-      const tip = document.createElement('div');
-      tip.textContent = `${when} UTC — ${cat} · ${p.wind_kt} kt${press}${isLandfall ? ' · LANDFALL' : ''}`;
-      marker.bindTooltip(tip, { direction: 'top', opacity: 0.92 });
+      const content = document.createElement('div');
+      content.textContent = `${when} UTC — ${cat} · ${p.wind_kt} kt${press}${isLandfall ? ' · LANDFALL' : ''}`;
+      marker.bindPopup(content, { closeButton: true, autoClose: true, closeOnClick: true });
     });
   }
 
@@ -241,11 +264,32 @@
       body.appendChild(desc);
     }
 
+    const terms = it.highlight_terms || DEFAULT_HIGHLIGHT_TERMS;
+
     if (it.snippet) {
       const snip = document.createElement('p');
       snip.className = 'item-snippet';
-      snip.innerHTML = highlightStorm(it.snippet);
+      appendHighlighted(snip, it.snippet, terms);
       body.appendChild(snip);
+    }
+
+    if (it.article_text) {
+      const isSpanish = it.article_language === 'es' && it.article_text_en;
+      if (isSpanish) {
+        body.appendChild(makeLabel('Original (Spanish)'));
+        body.appendChild(makeHighlightedBlock(it.article_text, terms, 'item-article'));
+        body.appendChild(makeLabel('English translation'));
+        body.appendChild(makeHighlightedBlock(it.article_text_en, terms, 'item-article-en'));
+      } else {
+        body.appendChild(makeHighlightedBlock(it.article_text, terms, 'item-article'));
+      }
+      const viewLink = document.createElement('a');
+      viewLink.className = 'item-view-original';
+      viewLink.href = it.url;
+      viewLink.target = '_blank';
+      viewLink.rel = 'noopener';
+      viewLink.textContent = 'View original page →';
+      body.appendChild(viewLink);
     }
 
     if (it.date && !it.snippet) {
@@ -281,6 +325,54 @@
     const escaped = escapeHtml(text);
     const pattern = /(hurricane|huracanes?|hurac\u00e1n|huracanes|ciclones?|cicl\u00f3n|cyclone|tropical|storm|tormenta|gale|flood|flooded|damage|damaged|destroyed|destruction)/gi;
     return escaped.replace(pattern, '<mark>$1</mark>');
+  }
+
+  const DEFAULT_HIGHLIGHT_TERMS = [
+    'hurricane', 'hurricanes', 'cyclone', 'cyclones',
+    'tropical', 'storm', 'storms', 'tormenta', 'tempestad', 'gale',
+    'flood', 'flooded', 'damage', 'damaged', 'destroyed', 'destruction',
+    'huracán',
+    'huracánes',
+    'ciclón',
+    'ciclones',
+  ];
+
+  function escapeRegex(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function appendHighlighted(parent, text, terms) {
+    if (!text) return;
+    if (!terms || terms.length === 0) {
+      parent.appendChild(document.createTextNode(text));
+      return;
+    }
+    const pattern = new RegExp('(' + terms.map(escapeRegex).join('|') + ')', 'gi');
+    const parts = text.split(pattern);
+    for (let i = 0; i < parts.length; i++) {
+      if (!parts[i]) continue;
+      if (i % 2 === 1) {
+        const mark = document.createElement('mark');
+        mark.textContent = parts[i];
+        parent.appendChild(mark);
+      } else {
+        parent.appendChild(document.createTextNode(parts[i]));
+      }
+    }
+  }
+
+  function makeLabel(text) {
+    const el = document.createElement('div');
+    el.className = 'item-article-label';
+    el.textContent = text;
+    return el;
+  }
+
+  function makeHighlightedBlock(text, terms, className) {
+    const el = document.createElement('div');
+    el.className = className;
+    appendHighlighted(el, text, terms);
+    return el;
   }
 
   function buildBadge(kind, count) {
