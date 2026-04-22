@@ -188,6 +188,8 @@ Keyword matching alone produces unacceptable noise: roughly half of 1944 \emph{h
 
 \paragraph{Ranking and cap.} Kept items are ranked by date proximity to the storm (storm-month best, month+1 second, later worse) and capped at \texttt{MAX\_PER\_CITY=12}. The cap prevents a single verbose paper from dominating a circle.
 
+\paragraph{Cross-city dedupe and the home-paper rule.} A proximity-verified candidate can legitimately match several cities at once: a small-circulation weekly that ran a statewide storm roundup will mention Tampa, Sarasota, Jacksonville, and Orlando on the same page, and the per-city curation loop will naively place that single page into four different circles. The pipeline therefore computes a canonical key per candidate --- for LOC items, \texttt{lccn:\{LCCN\}:\{YYYY-MM-DD\}:sp=\{seq\}} --- and enforces that each key appears at most once across the merged output. When a key would land in more than one city, the \emph{home-paper rule} applies: if the paper's home city is itself a circle (e.g.\ \emph{The Brooksville Journal} for Brooksville), the item stays there; otherwise it is promoted to \texttt{storm.misc.news} as a statewide reference. This is how \emph{Gadsden County Times} (Quincy, NW Florida --- no circle on this storm's track) arrived in MISC, while \emph{Brooksville Journal} issues stayed in the Brooksville circle. The effect: newspaper sources whose coverage is intrinsically statewide show up exactly once, in the bucket where they carry the most signal.
+
 %==============================================================================
 \section{Landing URLs --- Always Text + Image + Highlight}
 %==============================================================================

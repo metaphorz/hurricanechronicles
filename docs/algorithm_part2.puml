@@ -51,6 +51,19 @@ partition "5. Verification & Curation" {
   endif
   :Rank by date proximity to storm;
   :Cap per city (MAX_PER_CITY=12);
+  :Compute canonical key
+  (e.g. lccn:LCCN:YYYY-MM-DD:sp=seq);
+  if (same key in >1 city?) then (yes)
+    if (paper's home city
+    is a circle?) then (yes)
+      :Keep in home city only;
+    else (no)
+      :Promote to storm.misc
+      (statewide roundup);
+    endif
+  else (no)
+    :Keep as-is;
+  endif
 }
 
 partition "5b. LLM-Assisted Extraction\n(fetched content only — never URLs)" {
