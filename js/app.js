@@ -58,7 +58,32 @@
         renderSummary(storm);
         renderTrack(storm.track);
         renderArchives(storm.archives);
+        renderMisc(storm);
       });
+  }
+
+  function renderMisc(storm) {
+    const btn = document.getElementById('misc-btn');
+    const misc = storm.misc || { photos: [], news: [] };
+    const total = (misc.photos?.length || 0) + (misc.news?.length || 0);
+    if (!total) {
+      btn.hidden = true;
+      btn.onclick = null;
+      return;
+    }
+    btn.textContent = `MISC (${total})`;
+    btn.title = 'Storm-wide references — not tied to a single city';
+    btn.hidden = false;
+    btn.onclick = () => {
+      const virtualArchive = {
+        city: 'Miscellaneous',
+        region: `${storm.name} — storm-wide references`,
+        photos: misc.photos || [],
+        news: misc.news || [],
+      };
+      const kind = (misc.news?.length || 0) >= (misc.photos?.length || 0) ? 'news' : 'photos';
+      openPanel(virtualArchive, kind);
+    };
   }
 
   function renderSummary(storm) {
@@ -292,6 +317,30 @@
       body.appendChild(viewLink);
     }
 
+    if (it.kind === 'retrospective' && it.summary) {
+      if (it.byline) {
+        const by = document.createElement('div');
+        by.className = 'item-byline';
+        by.textContent = it.byline;
+        body.appendChild(by);
+      }
+      const label = document.createElement('div');
+      label.className = 'item-summary-label';
+      label.textContent = 'Summary (our words)';
+      body.appendChild(label);
+      const summary = document.createElement('div');
+      summary.className = 'item-summary';
+      summary.textContent = it.summary;
+      body.appendChild(summary);
+      const readLink = document.createElement('a');
+      readLink.className = 'item-view-original';
+      readLink.href = it.url;
+      readLink.target = '_blank';
+      readLink.rel = 'noopener';
+      readLink.textContent = `Read the full story at ${it.source || 'the source'} →`;
+      body.appendChild(readLink);
+    }
+
     if (it.date && !it.snippet) {
       // show date badge only when no snippet provides context
       const d = document.createElement('div');
@@ -376,18 +425,19 @@
   }
 
   function buildBadge(kind, count) {
-    if (!kind || (kind !== 'collection' && kind !== 'portal' && kind !== 'search')) {
-      return null;
-    }
+    if (!kind) return null;
+    const labels = {
+      collection: `Collection${count ? ` · ${count}` : ''}`,
+      portal: 'Portal',
+      search: 'Search',
+      retrospective: 'Retrospective',
+      encyclopedia: 'Encyclopedia',
+      'primary-document': 'Primary document',
+    };
+    if (!(kind in labels)) return null;
     const span = document.createElement('span');
     span.className = `badge ${kind}`;
-    if (kind === 'collection') {
-      span.textContent = `Collection${count ? ` · ${count}` : ''}`;
-    } else if (kind === 'portal') {
-      span.textContent = 'Portal';
-    } else {
-      span.textContent = 'Search';
-    }
+    span.textContent = labels[kind];
     return span;
   }
 })();

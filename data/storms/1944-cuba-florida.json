@@ -1958,7 +1958,17 @@
           "source": "State Archives of Florida / Florida Memory"
         }
       ],
-      "news": []
+      "news": [
+        {
+          "kind": "retrospective",
+          "title": "The St. Augustine Record — 1944: A dangerous year",
+          "url": "https://www.staugustine.com/story/news/local/2010/11/01/1944-dangerous-year/16219491007/",
+          "source": "The St. Augustine Record",
+          "date": "2010-11-01",
+          "byline": "By The Record",
+          "summary": "According to the source, the Cuba-Florida Hurricane struck St. Augustine on October 19-20, 1944, just days after a major downtown fire, arriving as a Category 2 storm after weakening from Category 4 over Cuba. The article states the hurricane brought 100 mph winds and a 15-foot storm surge, flooding parts of the city up to 5 feet deep, destroying the St. Augustine Beach pier, and collapsing the Bridge of Lions. It reports the storm killed 23 people in Florida and caused $50 million in damage, making it the second major hurricane to hit the state that year."
+        }
+      ]
     },
     {
       "id": "naples",
@@ -2087,5 +2097,40 @@
         }
       ]
     }
-  ]
+  ],
+  "misc": {
+    "photos": [],
+    "news": [
+      {
+        "kind": "encyclopedia",
+        "title": "1944 Cuba–Florida hurricane",
+        "url": "https://en.wikipedia.org/wiki/1944_Cuba%E2%80%93Florida_hurricane",
+        "source": "Wikipedia",
+        "description": "Wikipedia's dedicated article on the October 1944 Cuba–Florida hurricane: meteorology, storm track, impacts in Cuba and Florida, casualties, and aftermath."
+      },
+      {
+        "kind": "encyclopedia",
+        "title": "1944 Atlantic hurricane season",
+        "url": "https://en.wikipedia.org/wiki/1944_Atlantic_hurricane_season",
+        "source": "Wikipedia",
+        "description": "Season overview with a dedicated \"Hurricane Thirteen\" subsection placing the 1944 Cuba–Florida storm in the context of the full 14-storm 1944 season."
+      },
+      {
+        "kind": "retrospective",
+        "title": "Cuba-Florida Hurricane — 1944 (interactive web map)",
+        "url": "https://www.arcgis.com/home/item.html?id=5c4024d65652495d965943077ff54f22",
+        "source": "Esri StoryMaps",
+        "date": "2012-08-26",
+        "description": "Esri StoryMaps interactive web map of the 1944 Cuba–Florida hurricane. Per its summary, the storm is “ranked as the 7th most damaging storm since 1900 when data is normalized to today.”"
+      },
+      {
+        "kind": "primary-document",
+        "title": "Monthly Weather Review — 1944 (PDF, 11 MB)",
+        "url": "https://www.nhc.noaa.gov/data/mwreview/1944.pdf",
+        "source": "NOAA National Hurricane Center",
+        "date": "1944",
+        "description": "Full 1944 Monthly Weather Review archive served by NOAA NHC. The October issue contains the contemporary U.S. Weather Bureau analysis of the Cuba–Florida hurricane, including track, pressure, and wind observations."
+      }
+    ]
+  }
 }

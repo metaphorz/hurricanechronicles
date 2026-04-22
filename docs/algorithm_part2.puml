@@ -53,11 +53,44 @@ partition "5. Verification & Curation" {
   :Cap per city (MAX_PER_CITY=12);
 }
 
+partition "5b. LLM-Assisted Extraction\n(fetched content only — never URLs)" {
+  if (bilingual Spanish page?) then (yes)
+    :Claude Opus:
+    extract article text +
+    English translation;
+    :Store article_text + article_text_en;
+  else (no)
+    if (in-copyright modern retrospective?) then (yes)
+      :Claude Opus:
+      fair-use summary in our own words
+      (hard rule: no span >10 words);
+      :Store summary + byline + source link;
+    else (no)
+      :Claude Opus: extract
+      article_text from OCR page;
+    endif
+  endif
+  note right
+    Hallucination guardrail:
+    LLMs read **fetched** page content.
+    Never used to discover URLs, LCCNs,
+    or citations — those are hallucinated.
+  end note
+}
+
 partition "6. Merge & Render" {
   :Merge into data/storms/{id}.json
   preserving non-auto-curated items;
+  :Populate storm.misc with storm-wide
+  references (Wikipedia, NOAA MWR, etc.)
+  not tied to any one city;
   :Hide circles where photos + news = 0;
-  :<mark> matched terms in UI snippets;
+  :Show MISC topbar button when
+  storm.misc has items;
+  :Render article_text inline
+  (bilingual = Spanish + English);
+  :<mark> matched terms across
+  snippets and article blocks;
 }
 
 stop

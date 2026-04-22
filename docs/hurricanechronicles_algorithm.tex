@@ -33,7 +33,7 @@
 \maketitle
 
 \begin{abstract}
-Hurricane Chronicles is a Leaflet-based web map that shows a historical hurricane's track across Florida with clickable archive circles at cities along the path. Each circle opens a panel of curated photos and news items drawn from federal, state, and regional archives. This document specifies the reusable algorithm that takes a storm track as input and produces populated archive circles as output. The algorithm is tiered: it canvasses cities first at the federal level (Library of Congress), then the state level (University of Florida Digital Collections and Florida Memory), then the regional level (PastPerfect museum catalogs and DPLA). A proximity-based verification step ensures that keyword hits actually describe the storm rather than unrelated content with overlapping vocabulary. The 1944 Cuba--Florida Hurricane is the reference implementation; the same recipe applies to any named storm for which a track and date window are known.
+Hurricane Chronicles is a Leaflet-based web map that shows a historical hurricane's track across Florida with clickable archive circles at cities along the path. Each circle opens a panel of curated photos and news items drawn from federal, state, and regional archives. A top-bar \emph{MISC} entry holds storm-wide references (Wikipedia, NOAA Monthly Weather Review, interactive web maps) that are not tied to any one city. This document specifies the reusable algorithm that takes a storm track as input and produces populated archive circles as output. The algorithm is tiered: it canvasses cities first at the federal level (Library of Congress), then the state level (University of Florida Digital Collections and Florida Memory), then the regional level (PastPerfect museum catalogs and DPLA). A proximity-based verification step ensures that keyword hits actually describe the storm rather than unrelated content with overlapping vocabulary. A large language model (Claude Opus) is used downstream for bilingual translation and fair-use summarization of fetched pages, but never for URL or citation discovery --- a guardrail motivated by the hallucination incident described in Section~\ref{sec:hallucination}. The 1944 Cuba--Florida Hurricane is the reference implementation; the same recipe applies to any named storm for which a track and date window are known.
 \end{abstract}
 
 \tableofcontents
@@ -234,6 +234,85 @@ Curated items are merged back into \texttt{data/storms/\{id\}.json}, preserving 
   \item \textbf{Highlight matched terms.} News snippets wrap the matched terms (\emph{hurricane}, \emph{hurac\'an}, \emph{cicl\'on}, \emph{storm}, \emph{tormenta}, \emph{damage}, \emph{tropical}, \emph{flood}, \emph{gale}, \emph{destroyed}) in \texttt{<mark>} so readers do not have to skim walls of OCR.
 \end{enumerate}
 
+\subsection{Inline article extraction and bilingual rendering}
+
+For news items whose underlying source exposes OCR text, the pipeline runs a post-curation extraction pass (\texttt{tests/auto/widen\_translate\_all.py}) that fetches the page text and stores it directly in the item as \texttt{article\_text}. The panel then renders that text in place, so a visitor never has to click out to a PDF viewer to read the story. The specific patterns are:
+
+\begin{itemize}[leftmargin=1.5em]
+  \item \textbf{English-only OCR.} The pipeline stores the full page text in \texttt{article\_text}; the panel shows it inline with yellow \texttt{<mark>} highlighting on the same keyword set used during verification, followed by a ``View original page $\rightarrow$'' link to the archive's combined image+text viewer.
+  \item \textbf{Bilingual pages (Spanish originals).} For \emph{La Gaceta} (Tampa) and similar bilingual papers, Claude Opus is invoked on the \emph{fetched} page text to produce an English translation. Both are stored (\texttt{article\_text}, \texttt{article\_text\_en}), and the panel renders them stacked: a purple-accented ``Original (Spanish)'' block followed by a green-accented ``English translation'' block, with the yellow highlight applied to both. Visitors who do not read Spanish can still follow the coverage end-to-end in the panel.
+  \item \textbf{In-copyright modern retrospectives.} Some of the best context is in modern newspaper retrospectives (e.g.\ \emph{The St.\ Augustine Record}, 2010) that cannot be reproduced verbatim. The pipeline (\texttt{tests/auto/fetch\_retrospective.py}) fetches the page, passes it to Claude Opus with a hard rule that no quoted span may exceed $\sim$10 consecutive words, and stores a two- to three-sentence summary under \texttt{summary} together with \texttt{byline} and \texttt{source}. The panel renders this as a purple ``Summary (our words)'' card with a prominent ``Read the full story at \emph{source} $\rightarrow$'' link. Fair-use, link-forward.
+\end{itemize}
+
+\subsection{Storm-wide references: the MISC bucket}
+
+Some material is about the storm itself, not about any single city along the track: the Wikipedia article on the storm, the Wikipedia season overview, the NOAA Monthly Weather Review PDF, Esri/ArcGIS StoryMaps web maps, and similar. Forcing these into a specific city circle would be misleading. The schema therefore supports a sibling block to \texttt{archives} at the storm level:
+
+\begin{lstlisting}[caption={Storm-wide references block}]
+{
+  "hurdat_id": "AL131944",
+  "name": "1944 Cuba-Florida Hurricane",
+  ...
+  "archives": [ ... per-city photos/news ... ],
+  "misc": {
+    "photos": [ ],
+    "news":   [ { kind, title, url, source, date, description } ]
+  }
+}
+\end{lstlisting}
+
+When \texttt{storm.misc} contains any items, the UI shows a \texttt{MISC} button in the top bar next to the HURDAT2 metadata. Clicking it opens the same archive panel used by city circles, but with the synthetic title ``Miscellaneous'' and subtitle ``\{storm name\} --- storm-wide references.'' Two new \texttt{kind} values were introduced for this bucket: \texttt{encyclopedia} (Wikipedia articles) and \texttt{primary-document} (NOAA MWR, U.S. Weather Bureau reports). The existing \texttt{retrospective} kind is reused for StoryMaps and similar narrated overviews. Storms without a \texttt{misc} block hide the button automatically; no UI change is required between storms.
+
+%==============================================================================
+\section{Hallucination Mitigation}
+\label{sec:hallucination}
+%==============================================================================
+
+Large language models are used in several places in this pipeline --- for bilingual translation, fair-use retrospective summarization, and keyword/noise judgment during candidate verification. Early in development we also experimented with using an LLM-backed web search API (Perplexity Sonar, routed through OpenRouter) as a \emph{discovery} tool: given a broad natural-language query, return a ranked list of candidate URLs across federal, state, and regional archives. This subsection documents why that experiment was abandoned and what guardrail replaced it.
+
+\subsection{The Palatka incident}
+
+During a multi-query Sonar discovery run against the 1944 Cuba--Florida Hurricane, the service returned the following plausible-looking citation:
+
+\begin{lstlisting}[caption={The hallucinated citation}]
+title:  "Palatka Daily News - October 19, 1944 (hurricane coverage)"
+url:    https://www.loc.gov/resource/sn95047260/1944-10-19/ed-1/?sp=1
+source: "The Palatka Daily News - LOC Chronicling America"
+\end{lstlisting}
+
+Every surface feature of this record was correct:
+
+\begin{itemize}[leftmargin=1.5em]
+  \item URL shape matched the \texttt{www.loc.gov/resource/\{lccn\}/\{date\}/ed-\{n\}/} form used throughout Phase 2.
+  \item Date (\texttt{1944-10-19}) fell squarely inside the storm window.
+  \item LCCN had the correct Chronicling America serial-number format (\texttt{sn\#\#\#\#\#\#\#\#}).
+  \item City (Palatka) is a real St.\ Johns River town near the storm track.
+  \item Paper name (\emph{Palatka Daily News}) is a real, historically-digitized paper.
+\end{itemize}
+
+A direct fetch against the URL, however, returned 404. Resolving the LCCN at \texttt{loc.gov/item/sn95047260/?fo=json} showed it actually belongs to \emph{The Sun} (Belle Glade, Fla.), 1989--2018 --- wrong paper, wrong decade, wrong half of the state. A separate LOC title search confirmed that \emph{no} Palatka newspaper covering the 1940s is digitized in Chronicling America at all: the real \emph{Palatka Daily News} (LCCN \texttt{sn78001466}) ends at 1922.
+
+The citation had passed every plausibility filter the pipeline applies: primary-archive domain, correct URL template, correct date, real city, real paper name. What it failed was the one check that cost a network request: actually fetching the page.
+
+\subsection{Why LLMs cannot be trusted for citation discovery}
+
+The failure is not an isolated bug. LLMs compose responses from statistical patterns over training text, and archive citations are exactly the kind of structured, pattern-regular content where fluent-looking hallucinations are most likely and hardest to detect from the surface alone. An LCCN is eight digits after \texttt{sn}; a Chronicling America URL follows a rigid template; a hurricane-coverage page is expected to exist in any major Florida paper's October 1944 run. The model has strong priors for all of these, and will happily emit a syntactically valid permalink that references a paper that was never digitized, or a date on which no edition exists.
+
+Compounding the problem, the hallucination rate appears low enough that batch triage gives false confidence. In the 1944 discovery run, one fabricated LCCN was enough to corrupt an ingest: once the Palatka entry was added, verifying the remaining 84 ``primary-archive'' leads manually would have been required before any of them could be trusted --- which defeats the purpose of having the LLM surface them in the first place.
+
+\subsection{The guardrail: fetch-before-trust, never LLM-discovered URLs}
+
+The project rule is now:
+
+\begin{itemize}[leftmargin=1.5em]
+  \item \textbf{LLMs may read fetched content; they may not discover URLs.} Translation, summarization, and noise-catalog judgment all operate on bytes returned by a real HTTP request. No step in the pipeline accepts a URL, LCCN, bibid, or image ID that was generated by an LLM.
+  \item \textbf{Discovery uses built-in web search.} For broad discovery, the project uses Claude Code's native \texttt{WebSearch} tool (which backs onto real Google/Bing results), not an LLM-synthesized citation list. Results are real search hits from real crawlers; the model is not inventing URLs.
+  \item \textbf{Every candidate URL is fetch-tested before ingest.} The candidate verification step that used to check OCR proximity now also verifies that the URL resolves, that the returned page's content matches the claimed title/date, and for LOC specifically, that the LCCN resolves at \texttt{loc.gov/item/\{lccn\}/?fo=json} to a paper whose \texttt{dates\_of\_publication} span the target year.
+  \item \textbf{Rollback hurt, but rollback was easy.} The Palatka entry was removed by deleting one archive dict from the storm JSON. This argues for keeping the schema flat and idempotent: no cross-references, no derived aggregates, so a bad ingest can be undone without surgery.
+\end{itemize}
+
+The constraint that LLMs read fetched content only --- illustrated as a \emph{note} on Step 5b of the Part 2 flowchart (Figure~\ref{fig:algorithm_part2}) --- is the single most important addition to the pipeline since the original design, and applies to any future LLM the project adopts.
+
 %==============================================================================
 \section{Reusable Recipe for the Next Storm}
 %==============================================================================
@@ -249,6 +328,9 @@ To apply this pipeline to a new storm, the inputs are (a) the track, (b) the sto
   \item Probe PastPerfect per candidate museum; keep only the open ones.
   \item Treat DPLA as optional. If used, location-check every hit.
   \item Apply the proximity rule and noise catalog.
+  \item Run \texttt{widen\_translate\_all.py} to extract \texttt{article\_text} for each kept news item (with English translation if the source is Spanish).
+  \item If modern in-copyright retrospectives are worth linking, run \texttt{fetch\_retrospective.py} to produce fair-use summaries.
+  \item Populate \texttt{storm.misc} with storm-wide references (Wikipedia article, NOAA MWR PDF, StoryMap). \textbf{Verify every candidate URL with a real HTTP fetch before adding it} (see Section~\ref{sec:hallucination}).
   \item Merge, verify visually in the browser, and commit.
 \end{enumerate}
 
