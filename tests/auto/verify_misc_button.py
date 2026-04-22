@@ -1,9 +1,9 @@
 """Selenium smoke test for the new MISC topbar button.
 
 Loads the running app, waits for storm to load, then:
-  1. Confirms #misc-btn is visible and shows "MISC (4)"
+  1. Confirms #misc-btn is visible and shows "MISC (5)"
   2. Clicks MISC and screenshots the opened panel
-  3. Confirms the panel body has 4 item cards with the expected badges
+  3. Confirms the panel body has 5 item cards with the expected badges
 """
 from __future__ import annotations
 
@@ -40,7 +40,7 @@ def main():
             EC.visibility_of_element_located((By.ID, "misc-btn"))
         )
         print(f"misc button visible. text='{btn.text}'")
-        assert btn.text.strip() == "MISC (4)", f"expected 'MISC (4)', got {btn.text!r}"
+        assert btn.text.strip() == "MISC (5)", f"expected 'MISC (5)', got {btn.text!r}"
 
         driver.save_screenshot(str(OUT / "verify_misc_topbar.png"))
         print(f"wrote {OUT/'verify_misc_topbar.png'}")
@@ -57,7 +57,7 @@ def main():
         badges = [b.text for b in driver.find_elements(By.CSS_SELECTOR, "#panel-body .badge")]
         print(f"panel title='{title}'  subtitle='{subtitle}'  items={len(items)}  badges={badges}")
         assert "Miscellaneous" in title
-        assert len(items) == 4, f"expected 4 items, got {len(items)}"
+        assert len(items) == 5, f"expected 5 items, got {len(items)}"
 
         driver.save_screenshot(str(OUT / "verify_misc_panel.png"))
         print(f"wrote {OUT/'verify_misc_panel.png'}")
