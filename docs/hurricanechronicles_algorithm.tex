@@ -43,12 +43,12 @@ Hurricane Chronicles is a Leaflet-based web map that shows a historical hurrican
 \section{Goal and Scope}
 %==============================================================================
 
-Given a storm identifier, a track (a sequence of \texttt{(lat, lng, time, category)} points), and a date window, the algorithm must output a JSON storm file containing an \texttt{archives} list. Each entry has a city, coordinates, and two lists --- \texttt{news} and \texttt{photos} --- where every item is linkable, captioned, dated, and verifiably about this storm. Figure~\ref{fig:app_overview} shows the rendered result for the 1944 Cuba--Florida Hurricane. The black polyline is the track; the orange dots are populated archive circles ready to be clicked.
+Given a storm identifier, a track (a sequence of \texttt{(lat, lng, time, category)} points), and a date window, the algorithm must output a JSON storm file containing an \texttt{archives} list. Each entry has a city, coordinates, and two lists --- \texttt{news} and \texttt{photos} --- where every item is linkable, captioned, dated, and verifiably about this storm. Figure~\ref{fig:app_overview} shows the rendered result for the 1944 Cuba--Florida Hurricane. The polyline is the track (colored by Saffir--Simpson category, with the red marker indicating landfall); the white circles are populated archives ready to be clicked.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/app_overview.png}
-  \caption{Hurricane Chronicles rendering the 1944 Cuba--Florida Hurricane. The track runs from western Cuba across the Dry Tortugas, makes landfall near Sarasota, and exits through northeast Florida. Each orange dot is an archive circle with curated photos and news items.}
+  \caption{Hurricane Chronicles rendering the 1944 Cuba--Florida Hurricane. The track runs from western Cuba across the Dry Tortugas, makes landfall near Sarasota, and exits through northeast Florida. Each white circle is an archive with curated photos and news items.}
   \label{fig:app_overview}
 \end{figure}
 
